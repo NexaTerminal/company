@@ -87,6 +87,7 @@ export default function RootLayout({
             })
           }}
         />
+        <meta name="google-site-verification" content="SH8MCq9C65aQVXL7qhi9CzkUJp9k7wOJ2sUkzXFRYiw" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
