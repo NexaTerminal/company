@@ -58,6 +58,7 @@ export default function RootLayout({
         <meta name="DC.language" content="en" />
         <meta name="DC.coverage" content="North Macedonia" />
         <meta name="DC.rights" content="Copyright 2025 Nexa. All rights reserved." />
+        <meta name="google-site-verification" content="SH8MCq9C65aQVXL7qhi9CzkUJp9k7wOJ2sUkzXFRYiw" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
