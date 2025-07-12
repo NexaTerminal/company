@@ -59,6 +59,18 @@ export default function RootLayout({
         <meta name="DC.coverage" content="North Macedonia" />
         <meta name="DC.rights" content="Copyright 2025 Nexa. All rights reserved." />
         <meta name="google-site-verification" content="SH8MCq9C65aQVXL7qhi9CzkUJp9k7wOJ2sUkzXFRYiw" />
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-M42H6W2LGX"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-M42H6W2LGX');
+            `,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
