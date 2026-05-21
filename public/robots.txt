@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+Disallow: /_next
+
+Host: https://company.nexa.mk
+Sitemap: https://company.nexa.mk/sitemap.xml
