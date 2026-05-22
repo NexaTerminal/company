@@ -42,7 +42,7 @@ export default function SiteNavbar({
               width={120}
               height={32}
               priority
-              className="h-7 sm:h-8 w-auto"
+              className="h-[22px] sm:h-[26px] w-auto"
             />
             <span aria-hidden="true" className="hidden sm:inline-block h-5 w-px bg-slate-300" />
             <span className="hidden sm:inline text-sm font-semibold text-gray-800 tracking-tight">
