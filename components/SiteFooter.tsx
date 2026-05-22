@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import NexaWordmark from '@/components/NexaWordmark';
+import Image from 'next/image';
 
 type Lang = 'en' | 'mk';
 
@@ -35,7 +35,7 @@ export default function SiteFooter({ language }: { language: Lang }) {
       disclaimer:
         'The content on this site is general legal and informational material and does not constitute legal advice, an offer of services, or a commercial communication. Viewing or using this site does not create a lawyer-client relationship. For individual legal advice, contact a licensed attorney — the official directory of active attorneys in the Republic of North Macedonia is available at the',
       mbaLink: 'Macedonian Bar Association',
-      copyright: '© 2026 Nexa. All rights reserved. — A Nexa ecosystem property.',
+      copyright: '© 2026 NEKSA AMD DOOEL — part of the Nexa ecosystem.',
       poweredBy: 'Powered by Nexa',
       forPros: 'For lawyers and accountants: join the Nexa network →',
     },
@@ -58,7 +58,7 @@ export default function SiteFooter({ language }: { language: Lang }) {
       disclaimer:
         'Содржината на оваа страница претставува општи правни и информативни содржини и не претставува правен совет, понуда за услуги ниту комерцијална презентација. Прегледувањето или користењето на оваа страница не создава адвокатско-клиентски однос. За индивидуален правен совет, обратете се до лиценциран адвокат — официјалниот именик на активни адвокати во Република Северна Македонија е достапен на',
       mbaLink: 'Адвокатска комора на РСМ',
-      copyright: '© 2026 Nexa. Сите права се задржани. — Сопственост на Nexa екосистемот.',
+      copyright: '© 2026 НЕКСА АМД ДООЕЛ — дел од Nexa екосистемот.',
       poweredBy: 'Powered by Nexa',
       forPros: 'За адвокати и сметководители: придружете се на Nexa мрежата →',
     },
@@ -71,7 +71,7 @@ export default function SiteFooter({ language }: { language: Lang }) {
           {/* Col 1: About this site */}
           <div>
             <div className="mb-4">
-              <NexaWordmark size="md" />
+              <Image src="/nexa-logo-navbar.png" alt="Nexa" width={120} height={32} className="h-8 w-auto" />
             </div>
             <h3 className="text-gray-900 text-sm font-semibold mb-2">{t.siteName}</h3>
             <p className="text-sm text-gray-600 leading-relaxed mb-3">{t.sitePurpose}</p>
@@ -158,7 +158,9 @@ export default function SiteFooter({ language }: { language: Lang }) {
         {/* Bottom strip */}
         <div className="border-t border-gray-200 pt-6 flex flex-col md:flex-row justify-between items-center gap-3">
           <p className="text-xs text-gray-500">{t.copyright}</p>
-          <p className="text-xs text-gray-500">{t.poweredBy}</p>
+          <a href="https://nexa.mk" className="text-xs text-gray-500 hover:text-[#1E4DB7] transition-colors">
+            {t.poweredBy} →
+          </a>
         </div>
       </div>
     </footer>

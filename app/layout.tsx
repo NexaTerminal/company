@@ -7,45 +7,46 @@ const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 const SITE_URL = 'https://company.nexa.mk';
 
+const TITLE_EN = 'Company Registration in North Macedonia (2026) · Nexa';
+const DESC_EN =
+  'Step-by-step guide to registering a company in North Macedonia: DOO, DOOEL, PDOO, AD, sole proprietor and branch — capital, fees, taxes, and incorporation for foreigners.';
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'Регистрација на фирма во Македонија (2026) · Nexa',
-  description:
-    'Чекор-по-чекор водич за регистрација на фирма во Македонија: видови друштва, трошоци, основачки влог, документи, даноци и отворање фирма за странци.',
+  title: TITLE_EN,
+  description: DESC_EN,
   keywords:
-    'регистрација на фирма, регистрација на фирма во Македонија, отворање фирма, ДОО, ДООЕЛ, ПДОО, АД, Централен регистар, фирма за 1 евро, company registration Macedonia, DOO registration, open company North Macedonia',
+    'company registration Macedonia, DOO registration, open company North Macedonia, регистрација на фирма, регистрација на фирма во Македонија, ДОО, ДООЕЛ, ПДОО, АД, Централен регистар',
   alternates: {
     canonical: SITE_URL,
     languages: {
-      mk: SITE_URL,
       en: SITE_URL,
+      mk: SITE_URL,
       'x-default': SITE_URL,
     },
   },
   openGraph: {
-    title: 'Регистрација на фирма во Македонија (2026) · Nexa',
-    description:
-      'Чекор-по-чекор водич за регистрација на фирма во Македонија: видови друштва, трошоци, основачки влог, документи, даноци и отворање фирма за странци.',
+    title: TITLE_EN,
+    description: DESC_EN,
     url: SITE_URL,
     type: 'website',
-    locale: 'mk_MK',
-    alternateLocale: ['en_US'],
-    siteName: 'Company.Nexa.mk — Part of the Nexa ecosystem',
+    locale: 'en_US',
+    alternateLocale: ['mk_MK'],
+    siteName: 'Company · Nexa',
     images: [
       {
-        url: '/marketing-5.jpg',
+        url: `${SITE_URL}/marketing-5.jpg`,
         width: 1200,
         height: 630,
-        alt: 'Nexa — Регистрација на компанија во Северна Македонија',
+        alt: 'Nexa — Company Registration in North Macedonia',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Регистрација на фирма во Македонија (2026) · Nexa',
-    description:
-      'Чекор-по-чекор водич за регистрација на фирма во Македонија. ДОО, ДООЕЛ, ПДОО, АД. Дел од Nexa екосистемот.',
-    images: ['/marketing-5.jpg'],
+    title: TITLE_EN,
+    description: DESC_EN,
+    images: [`${SITE_URL}/marketing-5.jpg`],
   },
   robots: {
     index: true,
@@ -57,27 +58,27 @@ export const metadata: Metadata = {
   other: {
     'geo.region': 'MK',
     'geo.placename': 'Skopje, North Macedonia',
+    'geo.position': '41.9981;21.4254',
     'ICBM': '41.9981, 21.4254',
   },
 };
 
-// Organization schema (with legal entity per Part E.0)
+// Organization (ecosystem-wide standard block)
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'Nexa',
-  legalName: 'Company for Services NEKSA AMD DOOEL Skopje',
+  legalName: 'NEKSA AMD DOOEL',
   url: 'https://nexa.mk',
-  logo: 'https://nexa.mk/assets/nexa-logo.png',
+  logo: 'https://nexa.mk/nexa-logo-navbar.png',
+  email: 'info@nexa.mk',
+  telephone: '+389-78-534-258',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Bulevar Partizanski Odredi 102/2-14',
-    addressLocality: 'Skopje – Karposh',
-    addressRegion: 'Karposh',
+    streetAddress: 'Bul. Partizanski Odredi 102/2-14',
+    addressLocality: 'Skopje',
     addressCountry: 'MK',
   },
-  telephone: '+389-78-534-258',
-  email: 'info@nexa.mk',
   sameAs: [
     'https://samodaprasham.mk',
     'https://immigration.mk',
@@ -91,10 +92,10 @@ const organizationSchema = {
 const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Company.Nexa.mk',
+  name: 'Company · Nexa',
   url: SITE_URL,
-  inLanguage: ['mk', 'en'],
-  publisher: { '@type': 'Organization', name: 'Nexa', url: 'https://nexa.mk' },
+  inLanguage: 'en',
+  publisher: { '@type': 'Organization', name: 'Nexa', legalName: 'NEKSA AMD DOOEL' },
 };
 
 const legalServiceSchema = {
@@ -109,12 +110,12 @@ const legalServiceSchema = {
   provider: {
     '@type': 'Organization',
     name: 'Nexa',
-    legalName: 'Company for Services NEKSA AMD DOOEL Skopje',
+    legalName: 'NEKSA AMD DOOEL',
     url: 'https://nexa.mk',
   },
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Bulevar Partizanski Odredi 102/2-14',
+    streetAddress: 'Bul. Partizanski Odredi 102/2-14',
     addressLocality: 'Skopje',
     addressCountry: 'MK',
   },
@@ -128,11 +129,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="mk">
+    <html lang="en">
       <head>
         <link rel="canonical" href={SITE_URL} />
-        <link rel="alternate" hrefLang="mk" href={SITE_URL} />
         <link rel="alternate" hrefLang="en" href={SITE_URL} />
+        <link rel="alternate" hrefLang="mk" href={SITE_URL} />
         <link rel="alternate" hrefLang="x-default" href={SITE_URL} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="google-site-verification" content="SH8MCq9C65aQVXL7qhi9CzkUJp9k7wOJ2sUkzXFRYiw" />
@@ -172,6 +173,12 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-white focus:text-[#1E4DB7] focus:px-3 focus:py-2 focus:rounded focus:shadow focus:outline-2 focus:outline-[#1E4DB7]"
+        >
+          Skip to content
+        </a>
         {children}
         <CookieBanner />
       </body>

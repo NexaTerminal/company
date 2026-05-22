@@ -691,7 +691,7 @@ const ICONS: Record<string, any> = {
 };
 
 export default function Home() {
-  const [language, setLanguage] = useState<Lang>('mk');
+  const [language, setLanguage] = useState<Lang>('en');
   const t = content[language];
 
   // ---------- JSON-LD ----------
@@ -769,6 +769,7 @@ export default function Home() {
 
       <SiteNavbar language={language} onLanguageChange={setLanguage} />
 
+      <main id="main">
       {/* HERO */}
       <header id="home" className="relative overflow-hidden py-16 lg:py-24">
         <div className="absolute inset-0 bg-mesh pointer-events-none" />
@@ -1267,6 +1268,7 @@ export default function Home() {
           </p>
         </div>
       </section>
+      </main>
 
       <SiteFooter language={language} />
     </div>
