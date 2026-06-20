@@ -131,10 +131,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href={SITE_URL} />
-        <link rel="alternate" hrefLang="en" href={SITE_URL} />
-        <link rel="alternate" hrefLang="mk" href={SITE_URL} />
-        <link rel="alternate" hrefLang="x-default" href={SITE_URL} />
+        {/* Canonical + hreflang are emitted per-page via the Metadata API (see metadata.alternates). */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="google-site-verification" content="SH8MCq9C65aQVXL7qhi9CzkUJp9k7wOJ2sUkzXFRYiw" />
 

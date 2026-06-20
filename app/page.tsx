@@ -67,6 +67,7 @@ const content = {
           body:
             'The most common choice for small and medium businesses. A DOO can have between 2 and 50 founders, who may be individuals or legal entities, domestic or foreign. Liability is limited to each member’s capital contribution. The minimum share capital is EUR 5,000, which may be contributed in cash or in kind and may be paid within one year of registration.',
           icon: 'Building',
+          route: '/doo',
         },
         {
           short: 'DOOEL',
@@ -74,6 +75,7 @@ const content = {
           body:
             'A DOO with exactly one founder. It carries the same EUR 5,000 minimum capital and the same limited-liability protection. This is the typical structure for a solo entrepreneur or a wholly-owned subsidiary.',
           icon: 'User',
+          route: '/dooel',
         },
         {
           short: 'TP',
@@ -81,6 +83,7 @@ const content = {
           body:
             'A business run by a single individual who is personally liable for all obligations of the business with their entire personal assets. There is no minimum capital. It is the simplest and cheapest form, commonly used by craftspeople, farmers, artists, carriers, and small service providers — but the unlimited personal liability is a significant trade-off.',
           icon: 'Briefcase',
+          route: '/sole-proprietor',
         },
         {
           short: 'PDOO',
@@ -88,6 +91,7 @@ const content = {
           body:
             'A simplified limited liability company can be founded by up to three individuals, one of whom is the manager. The minimum share capital is just EUR 1 (in denar equivalent), with a minimum nominal share of 10 cents. In exchange for the low entry capital, a PDOO must build a mandatory reserve by setting aside one quarter of its annual profit until the reserve reaches the level of standard share capital. It is designed to lower the barrier for first-time founders.',
           icon: 'Zap',
+          route: '/pdoo',
         },
         {
           short: 'AD',
@@ -95,6 +99,7 @@ const content = {
           body:
             'Suitable for larger businesses and those that may raise capital from many shareholders. Minimum capital is higher — broadly EUR 25,000 for a private AD and EUR 50,000 for a public AD — and governance requirements are more demanding.',
           icon: 'Scale',
+          route: '/ad',
         },
         {
           short: 'Branch',
@@ -102,6 +107,7 @@ const content = {
           body:
             'A foreign company can register a branch (podružnica), which is not a separate legal entity but can conduct commercial activity, or a representative office (pretstavništvo), which is limited to market research and promotion and cannot trade.',
           icon: 'MapPin',
+          route: '/branch',
         },
       ],
       tableTitle: 'Entity comparison',
@@ -357,6 +363,8 @@ const content = {
       tldr: 'TL;DR',
       reviewedBy: 'Reviewed by licensed professionals in the Nexa network',
       hubCta: 'Part of the Nexa ecosystem — explore all our resources',
+      readFull: 'Read the full guide',
+      llcLink: 'Looking for “LLC registration”? An LLC is a DOO or DOOEL — see the LLC guide.',
     },
   },
 
@@ -392,6 +400,7 @@ const content = {
           body:
             'Најчест избор за мали и средни бизниси. ДОО може да има од 2 до 50 основачи, физички или правни лица, домашни или странски. Одговорноста е ограничена до висината на влогот на секој член. Минималниот основачки влог е 5.000 евра, во пари или во предмети и права, и може да се уплати во рок од една година од регистрацијата.',
           icon: 'Building',
+          route: '/doo',
         },
         {
           short: 'ДООЕЛ',
@@ -399,6 +408,7 @@ const content = {
           body:
             'ДОО со само еден основач. Има ист минимален влог од 5.000 евра и иста заштита со ограничена одговорност. Ова е типичната структура за претприемач кој работи сам или за друштво во целосна сопственост на едно лице.',
           icon: 'User',
+          route: '/dooel',
         },
         {
           short: 'ТП',
@@ -406,6 +416,7 @@ const content = {
           body:
             'Бизнис воден од едно физичко лице кое одговара за сите обврски на бизнисот со целиот свој личен имот. Нема минимален влог. Тоа е наједноставната и најевтината форма, често користена од занаетчии, земјоделци, уметници, превозници и мали даватели на услуги — но неограничената лична одговорност е значителен компромис.',
           icon: 'Briefcase',
+          route: '/sole-proprietor',
         },
         {
           short: 'ПДОО',
@@ -413,6 +424,7 @@ const content = {
           body:
             'Поедноставено ДОО може да основаат најмногу тројца основачи (физички лица), од кои еден е управител. Минималниот основачки влог е само 1 евро (во денарска противвредност), со најмал номинален износ на удел од 10 центи. Како замена за нискиот влог, ПДОО мора да формира задолжителна резерва со издвојување на една четвртина од годишната добивка додека резервата не го достигне нивото на стандарден основачки капитал. Целта е да се намали бариерата за првите чекори на нови претприемачи.',
           icon: 'Zap',
+          route: '/pdoo',
         },
         {
           short: 'АД',
@@ -420,6 +432,7 @@ const content = {
           body:
             'Соодветно за поголеми бизниси и за оние што сакаат да прибираат капитал од повеќе акционери. Минималниот капитал е повисок — начелно 25.000 евра за приватно АД и 50.000 евра за јавно АД — а барањата за управување се построги.',
           icon: 'Scale',
+          route: '/ad',
         },
         {
           short: 'Подружница',
@@ -427,6 +440,7 @@ const content = {
           body:
             'Странска компанија може да регистрира подружница, која не е посебно правно лице но може да врши комерцијална дејност, или претставништво, кое е ограничено на истражување на пазарот и промоција и не може да тргува.',
           icon: 'MapPin',
+          route: '/branch',
         },
       ],
       tableTitle: 'Споредба на правни форми',
@@ -682,6 +696,8 @@ const content = {
       tldr: 'Накратко',
       reviewedBy: 'Прегледано од лиценцирани професионалци во мрежата на Nexa',
       hubCta: 'Дел од Nexa екосистемот — истражете ги сите ресурси',
+      readFull: 'Прочитајте го целосниот водич',
+      llcLink: 'Барате „регистрација на LLC“? LLC е ДОО или ДООЕЛ — погледнете го водичот за LLC.',
     },
   },
 };
@@ -868,6 +884,11 @@ export default function Home() {
           <div className="text-center mb-12 max-w-3xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 tracking-tight">{t.entities.title}</h2>
             <p className="text-lg text-gray-600">{t.entities.intro}</p>
+            <p className="mt-3 text-sm">
+              <a href="/llc-registration" className="text-[#1E4DB7] underline hover:no-underline font-medium">
+                {t.sectionLabels.llcLink}
+              </a>
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -883,9 +904,18 @@ export default function Home() {
                       <span className="text-xs font-bold text-[#1E4DB7] uppercase tracking-wider">{e.short}</span>
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 mb-2 leading-snug">
-                      <dfn className="not-italic">{e.title}</dfn>
+                      <a href={e.route} className="hover:text-[#1E4DB7] transition-colors">
+                        <dfn className="not-italic">{e.title}</dfn>
+                      </a>
                     </h3>
                     <p className="text-sm text-gray-600 leading-relaxed">{e.body}</p>
+                    <a
+                      href={e.route}
+                      className="mt-4 inline-flex items-center text-[#1E4DB7] hover:text-[#163d92] text-sm font-medium"
+                    >
+                      {t.sectionLabels.readFull}
+                      <ChevronRight className="ml-1 h-4 w-4" />
+                    </a>
                   </CardContent>
                 </Card>
               );
@@ -946,6 +976,9 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 tracking-tight">{t.process.title}</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">{t.process.intro}</p>
+            <a href="/process" className="mt-3 inline-flex items-center text-[#1E4DB7] hover:text-[#163d92] text-sm font-medium">
+              {t.sectionLabels.readFull}<ChevronRight className="ml-1 h-4 w-4" />
+            </a>
           </div>
 
           <ol className="space-y-5">
@@ -973,7 +1006,12 @@ export default function Home() {
       {/* DOCUMENTS */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-10 text-center tracking-tight">{t.docs.title}</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3 text-center tracking-tight">{t.docs.title}</h2>
+          <p className="text-center mb-10">
+            <a href="/documents" className="inline-flex items-center text-[#1E4DB7] hover:text-[#163d92] text-sm font-medium">
+              {t.sectionLabels.readFull}<ChevronRight className="ml-1 h-4 w-4" />
+            </a>
+          </p>
           <div className="grid lg:grid-cols-2 gap-6">
             <Card className="bg-gradient-to-br from-slate-50 to-blue-50 rounded-2xl shadow-md border border-gray-100">
               <CardContent className="p-7">
@@ -1057,6 +1095,11 @@ export default function Home() {
               {t.ctaPrimary} →
             </a>
           </p>
+          <p className="mt-3 text-center">
+            <a href="/cost" className="inline-flex items-center text-[#1E4DB7] hover:text-[#163d92] text-sm font-medium">
+              {t.sectionLabels.readFull}<ChevronRight className="ml-1 h-4 w-4" />
+            </a>
+          </p>
         </div>
       </section>
 
@@ -1070,6 +1113,9 @@ export default function Home() {
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 tracking-tight">{t.timeline.title}</h2>
               <p className="text-lg text-gray-700 leading-relaxed">{t.timeline.body}</p>
+              <a href="/timeline" className="mt-3 inline-flex items-center text-[#1E4DB7] hover:text-[#163d92] text-sm font-medium">
+                {t.sectionLabels.readFull}<ChevronRight className="ml-1 h-4 w-4" />
+              </a>
             </div>
           </div>
           <div className="grid sm:grid-cols-2 gap-4 mt-6 ml-16">
@@ -1088,6 +1134,9 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 tracking-tight">{t.foreigners.title}</h2>
+            <a href="/for-foreigners" className="inline-flex items-center text-[#1E4DB7] hover:text-[#163d92] text-sm font-medium">
+              {t.sectionLabels.readFull}<ChevronRight className="ml-1 h-4 w-4" />
+            </a>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {t.foreigners.cards.map((c, i) => {
@@ -1150,6 +1199,9 @@ export default function Home() {
           <div className="text-center mb-10 max-w-3xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 tracking-tight">{t.tax.title}</h2>
             <p className="text-lg text-gray-600">{t.tax.intro}</p>
+            <a href="/taxes" className="mt-3 inline-flex items-center text-[#1E4DB7] hover:text-[#163d92] text-sm font-medium">
+              {t.sectionLabels.readFull}<ChevronRight className="ml-1 h-4 w-4" />
+            </a>
           </div>
           <div className="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden">
             <div className="overflow-x-auto">

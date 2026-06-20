@@ -5,6 +5,22 @@ import Image from 'next/image';
 
 type Lang = 'en' | 'mk';
 
+const GUIDE_LINKS = [
+  { href: '/doo', en: 'DOO (LLC)', mk: 'ДОО' },
+  { href: '/dooel', en: 'DOOEL', mk: 'ДООЕЛ' },
+  { href: '/pdoo', en: 'PDOO (€1)', mk: 'ПДОО' },
+  { href: '/ad', en: 'AD', mk: 'АД' },
+  { href: '/sole-proprietor', en: 'Sole proprietor', mk: 'Трговец поединец' },
+  { href: '/branch', en: 'Branch', mk: 'Подружница' },
+  { href: '/llc-registration', en: 'LLC registration', mk: 'Регистрација на LLC' },
+  { href: '/process', en: 'Process', mk: 'Постапка' },
+  { href: '/cost', en: 'Cost', mk: 'Трошоци' },
+  { href: '/documents', en: 'Documents', mk: 'Документи' },
+  { href: '/taxes', en: 'Taxes', mk: 'Даноци' },
+  { href: '/timeline', en: 'Timeline', mk: 'Рокови' },
+  { href: '/for-foreigners', en: 'For foreigners', mk: 'За странци' },
+];
+
 const SISTER_LINKS = [
   { href: 'https://nexa.mk', en: 'Nexa (Hub & Terminal)', mk: 'Nexa (Hub и Терминал)' },
   { href: 'https://samodaprasham.mk', en: 'SamoDaPrasham — Legal Q&A', mk: 'SamoDaPrasham — Правни прашања' },
@@ -26,6 +42,7 @@ export default function SiteFooter({ language }: { language: Lang }) {
       terms: 'Terms of Use',
       about: 'About',
       contact: 'Contact',
+      guides: 'Popular guides',
       mba: 'Find a licensed lawyer in the official MBA directory →',
       contactHeading: 'Contact',
       contactLine1: 'NEKSA AMD DOOEL',
@@ -49,6 +66,7 @@ export default function SiteFooter({ language }: { language: Lang }) {
       terms: 'Услови за користење',
       about: 'За нас',
       contact: 'Контакт',
+      guides: 'Популарни водичи',
       mba: 'Најдете лиценциран адвокат во официјалниот именик на АКРСМ →',
       contactHeading: 'Контакт',
       contactLine1: 'НЕКСА АМД ДООЕЛ',
@@ -138,6 +156,20 @@ export default function SiteFooter({ language }: { language: Lang }) {
             </address>
           </div>
         </div>
+
+        {/* Popular guides (internal-link network) */}
+        <nav aria-label={t.guides} className="border-t border-gray-200 pt-6 mb-6">
+          <h4 className="text-xs font-semibold text-gray-900 uppercase tracking-wider mb-3">{t.guides}</h4>
+          <ul className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+            {GUIDE_LINKS.map((g) => (
+              <li key={g.href}>
+                <Link href={g.href} className="text-gray-600 hover:text-[#1E4DB7] transition-colors">
+                  {language === 'mk' ? g.mk : g.en}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
 
         {/* Legal disclaimer (E.1) */}
         <div className="border-t border-gray-200 pt-6 mb-6">
