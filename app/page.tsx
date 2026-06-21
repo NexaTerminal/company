@@ -353,7 +353,7 @@ const content = {
         'Tell us a few details about your planned company and we will help you connect with a verified registration expert from the Nexa ecosystem. They will reply with a clear scope and quote — no obligation.',
       email: 'info@nexa.mk',
       consent:
-        'By contacting us, you acknowledge that your submission may be routed to a verified expert within the Nexa ecosystem who can incorporate your company. Nexa itself does not perform the registration — it connects you with the right professional.',
+        'When you contact us, your request is presented to the verified Nexa network anonymously — without your name or contact details. We share your contact only if a professional expresses interest in helping, and you can withdraw your request at any time by emailing info@nexa.mk. You have no financial obligation toward Nexa; any terms and price are agreed directly with the professional, who performs the registration (Nexa itself does not).',
     },
 
     disclaimer:
@@ -686,7 +686,7 @@ const content = {
         'Кажете ни неколку детали за планираната фирма и ќе ви помогнеме да се поврзете со верифициран експерт за регистрација од Nexa екосистемот. Тој ќе ви одговори со јасен опсег и понуда — без обврска.',
       email: 'info@nexa.mk',
       consent:
-        'Со контактирање, потврдувате дека вашето барање може да биде проследено до верифициран експерт во рамки на Nexa екосистемот кој може да ја регистрира вашата фирма. Nexa самата не ја врши регистрацијата — ве поврзува со вистинскиот професионалец.',
+        'Кога ќе нѐ контактирате, вашето барање се презентира пред верифицираната Nexa мрежа анонимно — без вашето име или контакт детали. Контактот го споделуваме само доколку професионалец изрази интерес да помогне, а барањето можете да го повлечете во секое време на info@nexa.mk. Кон Nexa немате финансиски обврски; условите и цената ги договарате директно со професионалецот, кој ја врши регистрацијата (Nexa самата не ја врши).',
     },
 
     disclaimer:

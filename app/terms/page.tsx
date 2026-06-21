@@ -4,7 +4,7 @@ import { useState } from 'react';
 import SiteNavbar from '@/components/SiteNavbar';
 import SiteFooter from '@/components/SiteFooter';
 
-const LAST_UPDATED = '2026-05-21';
+const LAST_UPDATED = '2026-06-21';
 
 const copy = {
   mk: {
@@ -37,10 +37,12 @@ const copy = {
       {
         h: '4. Насочување на барања и споделување со експерти од трета страна',
         body: [
-          'Nexa самата не врши регистрација на фирми. company.nexa.mk е информативна и поврзувачка платформа: поднесените контакт-барања се споделуваат со независни експерти од трета страна — адвокати, сметководители, агенти за регистрација и консултанти — кои се дел од верифицираната Nexa мрежа и кои одговараат на темата на вашето барање. Тие експерти работат независно од Nexa, во свое име и под своја одговорност.',
-          'Споделените податоци вклучуваат само информациите што самите ги наведувате при првичниот контакт (име, контакт и краток опис на барањето). Експертот потоа ве контактира за да го разгледа случајот и, доколку се согласите, да формира директен договорен однос со вас.',
+          'Nexa самата не врши регистрација на фирми. company.nexa.mk е информативна и поврзувачка платформа: кога ќе нѐ контактирате, вашето барање се презентира пред независни експерти од трета страна во верифицираната Nexa мрежа — адвокати, сметководители, агенти за регистрација и консултанти чија дејност одговара на темата на вашето барање. Тие експерти работат независно од Nexa, во свое име и под своја одговорност.',
+          'Вашето барање се презентира пред мрежата анонимно — без вашето име, контакт детали или други податоци по кои би можеле да бидете идентификувани. Во оваа фаза се споделуваат само темата и краток опис на тоа што ви треба.',
+          'Вашите контакт податоци се споделуваат со експерт единствено доколку тој експерт изрази интерес да помогне со вашето барање, и само за да може директно да ве контактира. Слободни сте сами да одлучите дали ќе соработувате.',
+          'Кон Nexa и кон company.nexa.mk немате никакви финансиски или материјални обврски. Евентуалната соработка, нејзините услови и цена ги договарате исклучиво и директно со експертот кој ве контактира; Nexa не е страна во тој однос.',
+          'Согласноста можете да ја повлечете (да го отповикате барањето) во секое време со порака на info@nexa.mk. По повлекувањето ќе го избришеме вашето барање од нашите евиденции и нема да го проследиме на ниту еден експерт.',
           'Важно: при првичниот контакт преку оваа страница не споделувајте чувствителни лични или деловни податоци (на пр. лични документи, банкарски детали, лозинки, медицински податоци, копии од договори, или какви било доверливи документи). За такви детали почекајте докажан и безбеден канал директно со одбраниот експерт, по идентификација.',
-          'Согласноста за ова споделување можете да ја повлечете во секое време со порака на info@nexa.mk; во тој случај ќе го избришеме вашето барање од нашите евиденции и нема да го проследиме на ниту еден експерт.',
         ],
       },
       {
@@ -109,10 +111,12 @@ const copy = {
       {
         h: '4. Lead routing and sharing with third-party experts',
         body: [
-          'Nexa itself does not perform company registration. company.nexa.mk is an informational and matchmaking platform: contact submissions are shared with independent third-party experts — lawyers, accountants, registration agents, and consultants — who are part of the verified Nexa network and whose practice matches the topic of your inquiry. Those experts operate independently from Nexa, in their own name and under their own responsibility.',
-          'The data shared with them is limited to what you provide in your initial contact (your name, contact details, and a short description of your request). The expert will then reach out to discuss your case and, if you agree, enter into a direct engagement with you.',
+          'Nexa itself does not perform company registration. company.nexa.mk is an informational and matchmaking platform: when you contact us, your request is presented to independent third-party experts in the verified Nexa network — lawyers, accountants, registration agents, and consultants whose practice matches the topic of your inquiry. Those experts operate independently from Nexa, in their own name and under their own responsibility.',
+          'Your request is presented to the network anonymously — without your name, contact details, or any other data by which you could be identified. At this stage only the topic and a short description of what you need are shared.',
+          'Your contact details are shared with an expert only if that expert expresses interest in helping with your request, and solely so they can reach out to you directly. You are free to decide whether to engage them.',
+          'You have no financial or material obligation toward Nexa or company.nexa.mk. Any cooperation, its terms, and its price are agreed exclusively and directly with the expert who contacts you; Nexa is not a party to that relationship.',
+          'You can withdraw your consent (recall your request) at any time by emailing info@nexa.mk. After withdrawal we will delete your request from our records and will not forward it to any expert.',
           'Important: do not share sensitive personal or business data in your initial contact through this site (for example, ID documents, bank details, passwords, medical information, copies of contracts, or any confidential documents). Save those details for a verified, secure channel directly with the chosen expert, after identification.',
-          'You can withdraw consent for this sharing at any time by emailing info@nexa.mk; we will then delete your submission from our records and will not forward it to any expert.',
         ],
       },
       {
