@@ -6,19 +6,14 @@ import Image from 'next/image';
 type Lang = 'en' | 'mk';
 
 const GUIDE_LINKS = [
-  { href: '/doo', en: 'DOO (LLC)', mk: 'ДОО' },
-  { href: '/dooel', en: 'DOOEL', mk: 'ДООЕЛ' },
-  { href: '/pdoo', en: 'PDOO (€1)', mk: 'ПДОО' },
-  { href: '/ad', en: 'AD', mk: 'АД' },
-  { href: '/sole-proprietor', en: 'Sole proprietor', mk: 'Трговец поединец' },
-  { href: '/branch', en: 'Branch', mk: 'Подружница' },
-  { href: '/llc-registration', en: 'LLC registration', mk: 'Регистрација на LLC' },
-  { href: '/process', en: 'Process', mk: 'Постапка' },
-  { href: '/cost', en: 'Cost', mk: 'Трошоци' },
-  { href: '/documents', en: 'Documents', mk: 'Документи' },
-  { href: '/taxes', en: 'Taxes', mk: 'Даноци' },
-  { href: '/timeline', en: 'Timeline', mk: 'Рокови' },
-  { href: '/for-foreigners', en: 'For foreigners', mk: 'За странци' },
+  { href: '/category/registration', en: 'Company registration', mk: 'Регистрација на фирма' },
+  { href: '/blog/company-legal-forms-north-macedonia', en: 'Legal forms (DOO, DOOEL, AD)', mk: 'Правни форми (ДОО, ДООЕЛ, АД)' },
+  { href: '/blog/how-to-register-company-north-macedonia', en: 'Registration process', mk: 'Постапка за регистрација' },
+  { href: '/blog/register-company-as-foreigner', en: 'For foreigners', mk: 'За странци' },
+  { href: '/category/company-changes', en: 'Company changes', mk: 'Промени во фирма' },
+  { href: '/category/tax', en: 'Taxes', mk: 'Даноци' },
+  { href: '/category/compliance', en: 'Compliance', mk: 'Усогласеност' },
+  { href: '/category/data-protection', en: 'Data protection (GDPR)', mk: 'Заштита на податоци' },
 ];
 
 const SISTER_LINKS = [

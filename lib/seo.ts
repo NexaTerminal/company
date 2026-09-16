@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { LOCALES, canonicalUrl, DEFAULT_LOCALE, type Locale } from '@/lib/i18n';
 
 export const SITE_URL = 'https://company.nexa.mk';
 
@@ -12,6 +13,9 @@ export const REVIEWER = {
 /**
  * Per-page metadata. Canonical + hreflang are self-referential to the page URL
  * because the site serves EN and MK from the same URL (client-side toggle).
+ *
+ * NOTE: Used by the legacy single-guide pages (/doo, /cost, …). New portal
+ * routes use buildMetadata() below, which is locale-path-aware.
  */
 export function pageMetadata({
   path,
@@ -116,4 +120,67 @@ export function faqSchema(items: { q: string; a: string }[]) {
 /** Renders an array of JSON-LD objects as <script> tags (server component friendly). */
 export function jsonLdScripts(schemas: object[]): string[] {
   return schemas.map((s) => JSON.stringify(s));
+}
+
+// ---------------------------------------------------------------------------
+// New portal metadata (locale-path-aware: EN at "/", MK at "/mk").
+// ---------------------------------------------------------------------------
+
+/** hreflang alternates for a given base path (locale-independent). */
+function languageAlternates(basePath: string): Record<string, string> {
+  return {
+    en: canonicalUrl('en', basePath),
+    mk: canonicalUrl('mk', basePath),
+    'x-default': canonicalUrl(DEFAULT_LOCALE, basePath),
+  };
+}
+
+export function buildMetadata(opts: {
+  locale: Locale;
+  basePath: string;
+  title: string;
+  description: string;
+  keywords?: string[];
+  image?: string;
+  type?: 'website' | 'article';
+  publishedTime?: string;
+  modifiedTime?: string;
+}): Metadata {
+  const {
+    locale, basePath, title, description, keywords, image,
+    type = 'website', publishedTime, modifiedTime,
+  } = opts;
+  const url = canonicalUrl(locale, basePath);
+  const ogImage = image
+    ? (image.startsWith('http') ? image : SITE_URL + image)
+    : `${SITE_URL}/marketing-5.jpg`;
+
+  return {
+    title,
+    description,
+    keywords,
+    alternates: {
+      canonical: url,
+      languages: languageAlternates(basePath),
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      type,
+      locale: LOCALES[locale].ogLocale,
+      alternateLocale: (Object.keys(LOCALES) as Locale[])
+        .filter((l) => l !== locale)
+        .map((l) => LOCALES[l].ogLocale),
+      siteName: locale === 'mk' ? 'Компанија · Nexa' : 'Company · Nexa',
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      ...(type === 'article' ? { publishedTime, modifiedTime } : {}),
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
 }

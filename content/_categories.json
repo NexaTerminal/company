@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "slug": "registration",
+    "icon": "Building2",
+    "name_en": "Company Registration",
+    "name_mk": "Регистрација на фирма",
+    "description_en": "Choosing a legal form, share capital, the registration process, documents and costs — including for foreigners.",
+    "description_mk": "Избор на правна форма, основачки влог, постапка за регистрација, документи и трошоци — вклучително и за странци."
+  },
+  {
+    "id": "2",
+    "slug": "company-changes",
+    "icon": "RefreshCw",
+    "name_en": "Company Changes",
+    "name_mk": "Промени во фирма",
+    "description_en": "Changing the manager, address, name, activity, ownership or share capital, and filing changes with the Central Registry.",
+    "description_mk": "Промена на управител, адреса, име, дејност, сопственост или основачки влог, и пријавување промени во Централниот регистар."
+  },
+  {
+    "id": "3",
+    "slug": "tax",
+    "icon": "Receipt",
+    "name_en": "Tax",
+    "name_mk": "Даноци",
+    "description_en": "Corporate profit tax, VAT, personal income tax, contributions, and the obligations of a running business.",
+    "description_mk": "Данок на добивка, ДДВ, персонален данок, придонеси и даночните обврски на активен бизнис."
+  },
+  {
+    "id": "4",
+    "slug": "compliance",
+    "icon": "ShieldCheck",
+    "name_en": "Compliance",
+    "name_mk": "Усогласеност",
+    "description_en": "Ongoing legal obligations: bookkeeping and annual accounts, UBO registration, AML, licences and corporate governance.",
+    "description_mk": "Тековни правни обврски: сметководство и годишна сметка, регистрација на вистински сопственик, спречување перење пари, дозволи и корпоративно управување."
+  },
+  {
+    "id": "5",
+    "slug": "data-protection",
+    "icon": "Lock",
+    "name_en": "Data Protection (GDPR)",
+    "name_mk": "Заштита на лични податоци",
+    "description_en": "Personal data protection duties for businesses under the Law on Personal Data Protection and the GDPR.",
+    "description_mk": "Обврски за заштита на личните податоци за бизнисите според Законот за заштита на личните податоци и ГДПР."
+  },
+  {
+    "id": "6",
+    "slug": "other",
+    "icon": "FileText",
+    "name_en": "General / Other",
+    "name_mk": "Друго",
+    "description_en": "Everything else a business owner should know that doesn't fit neatly into the other topics.",
+    "description_mk": "Сè друго што треба да го знае еден сопственик на бизнис, а не спаѓа во другите теми."
+  }
+]

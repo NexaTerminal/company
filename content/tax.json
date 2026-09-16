@@ -1,0 +1,43 @@
+[
+  {
+    "id": "tax-1",
+    "slug": "company-taxes-north-macedonia",
+    "category_id": "3",
+    "title": "Taxes for Companies in North Macedonia (2026)",
+    "excerpt": "North Macedonia's tax regime is simple and low: a flat 10% corporate profit tax, a flat 10% personal income tax, and 18% standard VAT with reduced rates of 10% and 5%.",
+    "author": "Nexa Legal Network",
+    "publishedDate": "2026-05-21",
+    "updatedDate": "2026-09-14",
+    "readingTime": "5 min read",
+    "image": "/marketing-5.jpg",
+    "content": {
+      "introduction": "<p>North Macedonia's tax regime is simple and low. The corporate profit tax is a flat 10%. The personal income tax is also a flat 10%. VAT has a standard rate of 18%, with reduced rates of 10% and 5%. Salaries are subject to social contributions. Withholding tax may apply to certain payments to non-residents (such as dividends, interest, and royalties), subject to applicable double-tax treaties.</p>",
+      "sections": [
+        {
+          "heading": "Tax rates and thresholds",
+          "level": 2,
+          "paragraphs": [
+            "<table><thead><tr><th>Tax</th><th>Rate / threshold</th></tr></thead><tbody><tr><td>Corporate profit tax</td><td>10% (flat)</td></tr><tr><td>Personal income tax</td><td>10% (flat)</td></tr><tr><td>VAT — standard</td><td>18%</td></tr><tr><td>VAT — reduced</td><td>10% (catering, some food) / 5% (basic food, water, pharma, books)</td></tr><tr><td>VAT registration threshold</td><td>MKD 2,000,000 turnover (mandatory)</td></tr></tbody></table>"
+          ]
+        },
+        {
+          "heading": "When VAT registration is required",
+          "level": 2,
+          "paragraphs": [
+            "<p>VAT registration becomes mandatory once your taxable turnover exceeds MKD 2,000,000 in a calendar year (or is expected to). You may also register voluntarily — useful if you trade with VAT-registered partners and want to reclaim input VAT — by applying to the Public Revenue Office (UJP), generally within 15 days of registration. The annual registration/deregistration window closes on 15 January.</p>"
+          ]
+        }
+      ]
+    },
+    "seo": {
+      "metaTitle": "Taxes for Companies in North Macedonia — Rates & VAT (2026)",
+      "metaDescription": "Company taxes in North Macedonia: flat 10% corporate profit tax, flat 10% personal income tax, 18% standard VAT (reduced 10%/5%), and the MKD 2,000,000 VAT threshold.",
+      "keywords": ["company tax North Macedonia", "corporate profit tax Macedonia", "VAT North Macedonia", "VAT registration threshold Macedonia", "10% flat tax Macedonia", "business tax Macedonia"]
+    },
+    "faq": [
+      { "question": "What is the corporate profit tax rate in North Macedonia?", "answer": "The corporate profit tax is a flat 10%, among the lowest in Europe. Personal income tax is also a flat 10%." },
+      { "question": "When do I have to register for VAT?", "answer": "VAT registration is mandatory once taxable turnover exceeds MKD 2,000,000 in a calendar year. You can also register voluntarily, generally within 15 days of incorporation." }
+    ],
+    "relatedArticles": ["register-company-north-macedonia", "how-to-register-company-north-macedonia"]
+  }
+]

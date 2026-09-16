@@ -1,0 +1,220 @@
+[
+  {
+    "id": "chg-1",
+    "slug": "change-company-manager-north-macedonia",
+    "category_id": "2",
+    "title": "How to Change the Manager of a Company in North Macedonia",
+    "excerpt": "Replacing the manager (управител) of a DOO or DOOEL requires a formal decision, statutory statements under the Law on Trade Companies, and registration of the change with the Central Registry.",
+    "author": "Nexa Legal Network",
+    "publishedDate": "2026-09-15",
+    "updatedDate": "2026-09-15",
+    "readingTime": "5 min read",
+    "image": "/marketing-6.jpg",
+    "content": {
+      "introduction": "<p>The manager (управител) is the person who legally represents your company and signs on its behalf. Changing the manager — because the current one is stepping down, being replaced, or a new person is being appointed — is one of the most common company changes, and it must be registered with the Central Registry of the Republic of North Macedonia to take legal effect. Until the change is registered, the old manager remains the company's registered representative.</p>",
+      "sections": [
+        {
+          "heading": "Who decides on the change",
+          "level": 2,
+          "paragraphs": [
+            "<p>The decision to dismiss the existing manager and appoint a new one is made by the company's owners. In a single-member company (ДООЕЛ) this is a decision of the sole owner; in a multi-member company (ДОО) it is a decision of the assembly of members. The decision names the outgoing manager, the incoming manager, and the date of the change.</p>"
+          ]
+        },
+        {
+          "heading": "Documents you need",
+          "level": 2,
+          "paragraphs": [
+            "<p>The exact set depends on whether the company is a ДОО or a ДООЕЛ, but the core documents are:</p>",
+            "<ul><li><strong>Decision to dismiss and appoint the manager</strong> (Одлука за разрешување и именување управител).</li><li><strong>Decision to amend the founding act</strong> — the founding agreement for a ДОО, or the founding statement for a ДООЕЛ — because the manager is named in it.</li><li><strong>Consolidated (clean) text of the founding act</strong> (пречистен текст) reflecting the new manager.</li><li><strong>Statement under Article 32 of the Law on Trade Companies (ЗТД)</strong> — confirming the new manager meets the legal requirements to serve.</li><li><strong>Statement under Article 183 of the ЗТД</strong> — the new manager's own statement accepting the role and its responsibilities.</li><li><strong>Signature specimen form (ЗП-образец)</strong> — the new manager's certified signature, deposited with the Central Registry.</li><li><strong>Copy of the new manager's ID card or passport.</strong></li></ul>"
+          ]
+        },
+        {
+          "heading": "The process",
+          "level": 2,
+          "paragraphs": [
+            "<p>Once the decisions and statements are prepared and signed, the documents are filed electronically with the Central Registry, normally through an authorized registration agent (a lawyer or accountant with registry access). The Central Registry updates the company's record to show the new manager. From that moment, the new manager is the company's registered legal representative.</p>",
+            "<p>A practical tip: after the change is registered, notify your bank so the new manager's signature is recognized on the corporate account, and update anyone who relies on the manager's authority (accountant, key suppliers, authorities).</p>"
+          ]
+        }
+      ]
+    },
+    "seo": {
+      "metaTitle": "Change Company Manager in North Macedonia — Documents & Process",
+      "metaDescription": "How to change the manager (управител) of a DOO or DOOEL in North Macedonia: the decision, Article 32 and 183 statements, signature specimen, and Central Registry filing.",
+      "keywords": ["change company manager North Macedonia", "промена на управител", "промена на управител документи", "нов управител ДОО", "Central Registry manager change", "Article 183 ZTD statement"]
+    },
+    "faq": [
+      { "question": "Who can decide to change the manager?", "answer": "The company's owners: the sole owner in a ДООЕЛ, or the assembly of members in a ДОО. The decision names the outgoing and incoming manager." },
+      { "question": "Which statements does the new manager have to sign?", "answer": "A statement under Article 32 of the Law on Trade Companies (confirming they meet the legal requirements to serve) and a statement under Article 183 (accepting the role). A certified signature specimen (ЗП-образец) is also deposited with the Central Registry." },
+      { "question": "When does the change take legal effect?", "answer": "When it is registered with the Central Registry. Until then, the previously registered manager remains the company's legal representative." }
+    ],
+    "relatedArticles": ["transfer-sale-company-share-north-macedonia", "company-liquidation-north-macedonia"]
+  },
+  {
+    "id": "chg-2",
+    "slug": "transfer-sale-company-share-north-macedonia",
+    "category_id": "2",
+    "title": "Transfer and Sale of a Company Share (Udel) in North Macedonia",
+    "excerpt": "Selling or transferring a share (удел) in a DOO requires a notarized transfer contract, respects the other members' right of first refusal, and must be registered with the Central Registry. Capital gains may be taxed.",
+    "author": "Nexa Legal Network",
+    "publishedDate": "2026-09-15",
+    "updatedDate": "2026-09-15",
+    "readingTime": "6 min read",
+    "image": "/marketing-5.jpg",
+    "content": {
+      "introduction": "<p>A share, or удел, is a member's ownership stake in a limited liability company. Members change over time — someone sells out, brings in a partner, gifts a stake to a family member, or restructures ownership. Transferring a share follows a defined procedure under the Law on Trade Companies (ЗТД): a notarized contract, respect for the other members' pre-emption right, and registration of the new ownership with the Central Registry.</p>",
+      "sections": [
+        {
+          "heading": "The transfer contract",
+          "level": 2,
+          "paragraphs": [
+            "<p>The transfer is documented in a share transfer agreement (Договор за пренос на удел), which <strong>must be notarized</strong>. The contract identifies the seller and the buyer, describes the share being transferred, and sets the price and method of payment. A share can be transferred for a price or, for example, gifted without compensation — the contract states which.</p>",
+            "<p>A key precondition: the member can only transfer a share whose underlying contribution has been <strong>fully paid in</strong>. A member who has unpaid taxes, contributions or customs duties generally cannot buy or transfer a share. In practice, the notary will ask for a tax clearance certificate from the Public Revenue Office and a customs clearance certificate confirming there are no outstanding obligations.</p>"
+          ]
+        },
+        {
+          "heading": "The other members' right of first refusal",
+          "level": 2,
+          "paragraphs": [
+            "<p>The existing members of the company have a <strong>right of first refusal</strong> (право на првенствено купување) — a priority right to buy the share before it is sold to an outsider, typically exercisable within about 30 days of being notified of the intended transfer. The founding agreement can set the details, so check it before you commit to an external buyer.</p>"
+          ]
+        },
+        {
+          "heading": "Registering the new owner",
+          "level": 2,
+          "paragraphs": [
+            "<p>After the contract is notarized, the change of ownership is filed with the Central Registry, normally through an authorized registration agent. The manager also updates the company's internal Register of Shares (Книга на удели) — only persons recorded there count as members. Because ownership has changed, you should also update the Ultimate Beneficial Owner (UBO) register and notify the company's bank.</p>"
+          ]
+        },
+        {
+          "heading": "Tax on the sale",
+          "level": 2,
+          "paragraphs": [
+            "<p>Selling a share for more than you paid for it can create a taxable capital gain. The gain is calculated as the difference between the sale price and the acquisition price of the share. Because the tax treatment depends on your specific situation, confirm the current rules with an accountant before closing. See also our guide to <a href=\"/blog/company-taxes-north-macedonia\">taxes for companies in North Macedonia</a>.</p>"
+          ]
+        }
+      ]
+    },
+    "seo": {
+      "metaTitle": "Transfer & Sale of a Company Share (Udel) in North Macedonia",
+      "metaDescription": "How to sell or transfer a share (удел) in a DOO in North Macedonia: the notarized contract, the members' right of first refusal, Central Registry filing, and capital gains tax.",
+      "keywords": ["transfer company share North Macedonia", "продажба на удел", "пренос на удел", "sell share DOO", "right of first refusal udel", "capital gains udel Macedonia"]
+    },
+    "faq": [
+      { "question": "Does a share transfer have to be notarized?", "answer": "Yes. The share transfer agreement (Договор за пренос на удел) must be notarized, and it must state the parties, the share being transferred, and the price and payment method." },
+      { "question": "Do the other members have a right to buy first?", "answer": "Yes. Existing members have a right of first refusal — a priority right to buy the share before it goes to an outside buyer, typically within about 30 days of notice. Check the founding agreement for the exact terms." },
+      { "question": "Is selling a share taxed?", "answer": "A capital gain — the difference between the sale price and the acquisition price of the share — can be taxable. Confirm the current treatment with an accountant for your specific case." },
+      { "question": "What must be settled before a transfer?", "answer": "The share's contribution must be fully paid in, and the transferring member should have no outstanding taxes, contributions or customs duties — the notary typically requires tax and customs clearance certificates." }
+    ],
+    "relatedArticles": ["vlog-vs-udel-north-macedonia", "change-company-manager-north-macedonia"]
+  },
+  {
+    "id": "chg-3",
+    "slug": "vlog-vs-udel-north-macedonia",
+    "category_id": "2",
+    "title": "Vlog vs Udel: Contribution and Share Explained",
+    "excerpt": "Two terms that are easy to confuse: the влог is what you put into the company, and the удел is the bundle of ownership rights you get in return. The difference matters for control and profit.",
+    "author": "Nexa Legal Network",
+    "publishedDate": "2026-09-15",
+    "updatedDate": "2026-09-15",
+    "readingTime": "4 min read",
+    "image": "/marketing-6.jpg",
+    "content": {
+      "introduction": "<p>Two Macedonian company-law terms are constantly mixed up: <strong>влог</strong> (contribution) and <strong>удел</strong> (share). They are related but not the same, and the distinction has real consequences for who controls the company and how profit is split. In short: the влог is what you <em>put in</em>; the удел is what you <em>get</em> in return.</p>",
+      "sections": [
+        {
+          "heading": "Влог — the contribution",
+          "level": 2,
+          "paragraphs": [
+            "<p>The влог is the economic contribution a member transfers to the company — at founding or on a capital increase. It can be <strong>monetary</strong> (cash paid into the company's account, in denars or foreign currency) or <strong>non-monetary / in kind</strong> (property, vehicles, equipment, or rights such as patents and licences). In-kind contributions must be independently valued by an authorized appraiser. In certain cases, a loan or claim against the company can also be converted into a contribution. Once transferred, contributions form the company's basic capital (основна главнина).</p>"
+          ]
+        },
+        {
+          "heading": "Удел — the share",
+          "level": 2,
+          "paragraphs": [
+            "<p>The удел is the <strong>totality of rights and obligations</strong> a member acquires in exchange for their contribution: the right to take part in decision-making, to receive a share of the profit, to access company information, and to a share of any remaining assets if the company is wound up. Each member holds one удел, and it cannot be represented as a security (unlike shares in a joint-stock company). Members are recorded in the company's Register of Shares (Книга на удели) — only a person entered there counts as a member.</p>"
+          ]
+        },
+        {
+          "heading": "Why the difference matters",
+          "level": 2,
+          "paragraphs": [
+            "<p>By default, a member's ownership percentage matches the proportion of their contribution. But the founding agreement can set it differently. For example, a member who contributes EUR 1,000 to a company with EUR 5,000 of capital has put in 20% of the capital — yet the members can agree that this person's удел (and therefore their voting power and profit share) is 40%, or some other figure. That is why the влог alone does not tell you who controls a company; the удел does.</p>",
+            "<p>If a manager refuses to enter a member in the Register of Shares, the member can petition the court to enforce registration, typically within a short window of 8 days.</p>"
+          ]
+        }
+      ]
+    },
+    "seo": {
+      "metaTitle": "Vlog vs Udel in North Macedonia — Contribution and Share Explained",
+      "metaDescription": "The difference between влог (contribution) and удел (share) in a North Macedonian company: what you put in versus the ownership rights you get, and why the percentages can differ.",
+      "keywords": ["vlog vs udel", "разлика влог удел", "влог и удел", "company contribution share Macedonia", "ownership percentage DOO", "Register of Shares Книга на удели"]
+    },
+    "faq": [
+      { "question": "What is the difference between влог and удел?", "answer": "The влог (contribution) is what a member transfers to the company — money, property or rights. The удел (share) is the bundle of ownership rights and obligations the member receives in return. One is the economic input; the other is the legal ownership stake." },
+      { "question": "Does the contribution percentage always equal the ownership percentage?", "answer": "By default yes, but the founding agreement can set the удел differently. Someone contributing 20% of the capital could hold a 40% удел if the members agree." },
+      { "question": "Can a contribution be non-monetary?", "answer": "Yes. A contribution can be in kind — property, vehicles, equipment, or rights like patents and licences — but it must be independently valued by an authorized appraiser." }
+    ],
+    "relatedArticles": ["transfer-sale-company-share-north-macedonia", "register-company-north-macedonia"]
+  },
+  {
+    "id": "chg-4",
+    "slug": "company-liquidation-north-macedonia",
+    "category_id": "2",
+    "title": "Liquidating a Company in North Macedonia: Voluntary Closure",
+    "excerpt": "Voluntary liquidation is the orderly way to close a solvent company and delete it from the Central Registry — a members' decision, a liquidator, a creditor notice, and settlement of all obligations. It differs from bankruptcy.",
+    "author": "Nexa Legal Network",
+    "publishedDate": "2026-09-15",
+    "updatedDate": "2026-09-15",
+    "readingTime": "6 min read",
+    "image": "/marketing-5.jpg",
+    "content": {
+      "introduction": "<p>When owners want to close a company that can still pay its debts, the route is <strong>voluntary liquidation</strong> (ликвидација) — an orderly, strictly regulated process to settle all obligations and delete the company from the Central Registry. It is different from bankruptcy (стечај), which is a forced, court-supervised process for a company that is insolvent and cannot pay its debts.</p>",
+      "sections": [
+        {
+          "heading": "The decision and the liquidator",
+          "level": 2,
+          "paragraphs": [
+            "<p>Liquidation begins with a decision of the members' assembly, adopted by at least a <strong>three-quarters majority</strong>. The members appoint a <strong>liquidator</strong> — the person who will wind the company down: complete outstanding transactions, collect receivables, settle obligations, and convert assets to cash. Once liquidation is registered, the company continues to operate under its name with the suffix <strong>“– во ликвидација”</strong> (“in liquidation”) added.</p>",
+            "<p>The liquidator prepares an opening liquidation balance sheet as of the start of the process, and carries personal liability for damage caused during the liquidation — so this is a role to fill carefully.</p>"
+          ]
+        },
+        {
+          "heading": "Notifying creditors — the deadlines",
+          "level": 2,
+          "paragraphs": [
+            "<p>Creditors must be given a chance to come forward. After the Central Registry's first decision registering the liquidation, the liquidator has <strong>7 days</strong> to publish a public notice on the Central Registry's website calling on creditors to report their claims. Creditors then have <strong>15 days</strong> to file their claims.</p>",
+            "<p>If no creditor claims are filed after the 15-day period expires, the liquidator must submit the deregistration application within <strong>3 days</strong>. If claims are filed, they must be settled before the company can be deleted.</p>"
+          ]
+        },
+        {
+          "heading": "Settling obligations and deregistration",
+          "level": 2,
+          "paragraphs": [
+            "<p>Before the company can be struck off, all obligations must be satisfied and the authorities must be clear. In practice the liquidator provides a solvency certificate from the company's bank, a certificate that taxes and contributions are paid, and proof that the annual accounts have been filed. Any assets remaining after all debts are paid are distributed to the members according to the founding agreement. Once the Central Registry approves the deregistration, the company ceases to exist.</p>"
+          ]
+        },
+        {
+          "heading": "Liquidation vs bankruptcy",
+          "level": 2,
+          "paragraphs": [
+            "<table><thead><tr><th></th><th>Liquidation (ликвидација)</th><th>Bankruptcy (стечај)</th></tr></thead><tbody><tr><td>Nature</td><td>Voluntary</td><td>Forced</td></tr><tr><td>Financial state</td><td>Solvent — debts can be paid</td><td>Insolvent — debts cannot be paid</td></tr><tr><td>Oversight</td><td>Controlled by the members and liquidator</td><td>Court-supervised</td></tr></tbody></table>"
+          ]
+        }
+      ]
+    },
+    "seo": {
+      "metaTitle": "Liquidating a Company in North Macedonia — Voluntary Closure",
+      "metaDescription": "Voluntary liquidation in North Macedonia: the three-quarters members' decision, the liquidator, the 7-day creditor notice and 15-day claim window, and deregistration from the Central Registry.",
+      "keywords": ["company liquidation North Macedonia", "ликвидација на фирма", "voluntary liquidation Macedonia", "liquidator ликвидатор", "close company North Macedonia", "liquidation vs bankruptcy"]
+    },
+    "faq": [
+      { "question": "What majority is needed to start liquidation?", "answer": "A decision of the members' assembly adopted by at least a three-quarters majority. The members also appoint a liquidator to wind the company down." },
+      { "question": "How long do creditors have to file claims?", "answer": "After the liquidation is registered, the liquidator has 7 days to publish a creditor notice on the Central Registry's website, and creditors then have 15 days to report their claims. If none are filed, the liquidator files for deregistration within 3 days." },
+      { "question": "How is liquidation different from bankruptcy?", "answer": "Liquidation is a voluntary closure of a solvent company that can pay its debts, controlled by the members and the liquidator. Bankruptcy (стечај) is a forced, court-supervised process for an insolvent company that cannot pay its debts." },
+      { "question": "What happens to assets left after debts are paid?", "answer": "Any remaining assets are distributed to the members according to the founding agreement, after all obligations are settled and the authorities confirm taxes and contributions are paid." }
+    ],
+    "relatedArticles": ["change-company-manager-north-macedonia", "transfer-sale-company-share-north-macedonia"]
+  }
+]

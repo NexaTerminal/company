@@ -96,6 +96,14 @@ const websiteSchema = {
   url: SITE_URL,
   inLanguage: 'en',
   publisher: { '@type': 'Organization', name: 'Nexa', legalName: 'NEKSA AMD DOOEL' },
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: `${SITE_URL}/search?q={search_term_string}`,
+    },
+    'query-input': 'required name=search_term_string',
+  },
 };
 
 const legalServiceSchema = {
@@ -134,6 +142,7 @@ export default function RootLayout({
         {/* Canonical + hreflang are emitted per-page via the Metadata API (see metadata.alternates). */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="google-site-verification" content="SH8MCq9C65aQVXL7qhi9CzkUJp9k7wOJ2sUkzXFRYiw" />
+        <link rel="alternate" type="application/rss+xml" title="Company · Nexa — Latest articles" href={`${SITE_URL}/feed.xml`} />
 
         {/* GA4 with Consent Mode v2 — denied by default (GDPR) */}
         <script

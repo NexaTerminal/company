@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# raw source material for article drafting (keep the README, ignore the rest)
+/content/_sources/*
+!/content/_sources/README.md
+
+# raw legal source PDFs (large; working material, not for the repo)
+/0sources for the new website/
