@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { ChevronRight } from 'lucide-react';
 import PortalHeader from '@/components/PortalHeader';
@@ -9,6 +10,15 @@ import { getArticlesByCategory } from '@/lib/blogData';
 import { getDictionary } from '@/lib/dictionary';
 import { localizedHref, canonicalUrl, type Locale } from '@/lib/i18n';
 
+const GRADIENTS: Record<string, string> = {
+  registration: 'from-[#1E4DB7] to-[#2BB3C0]',
+  'company-changes': 'from-[#2BB3C0] to-[#1E4DB7]',
+  tax: 'from-[#163d92] to-[#2BB3C0]',
+  compliance: 'from-[#1E4DB7] to-[#0f766e]',
+  'data-protection': 'from-[#312e81] to-[#1E4DB7]',
+  other: 'from-[#334155] to-[#1E4DB7]',
+};
+
 export default function CategoryView({ locale, slug }: { locale: Locale; slug: string }) {
   const t = getDictionary(locale);
   const category = getCategoryBySlug(slug, locale);
@@ -16,6 +26,7 @@ export default function CategoryView({ locale, slug }: { locale: Locale; slug: s
 
   const articles = getArticlesByCategory(slug, locale);
   const categoryUrl = canonicalUrl(locale, `/category/${category.slug}`);
+  const gradient = GRADIENTS[category.slug] || 'from-[#1E4DB7] to-[#2BB3C0]';
 
   const collectionSchema = {
     '@context': 'https://schema.org',
@@ -46,30 +57,38 @@ export default function CategoryView({ locale, slug }: { locale: Locale; slug: s
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-slate-50 to-blue-50">
+    <div className="min-h-screen flex flex-col bg-white">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <PortalHeader locale={locale} />
 
       <main id="main" className="flex-1">
-        <section className="relative overflow-hidden py-14 lg:py-20">
-          <div className="absolute inset-0 bg-mesh pointer-events-none opacity-70" />
-          <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <nav className="text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
-              <Link href={localizedHref(locale, '/')} className="hover:text-[#1E4DB7]">
-                {t.common.backToHome}
-              </Link>
+        {/* HERO */}
+        <section className="relative h-[320px] sm:h-[380px] overflow-hidden">
+          {category.image ? (
+            <Image src={category.image} alt={category.name} fill sizes="100vw" priority className="object-cover" />
+          ) : (
+            <div className={`absolute inset-0 bg-gradient-to-br ${gradient}`} />
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-950/85 via-gray-950/45 to-gray-900/25" />
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-10">
+            <nav className="text-sm text-white/70 mb-3" aria-label="Breadcrumb">
+              <Link href={localizedHref(locale, '/')} className="hover:text-white">{t.common.backToHome}</Link>
               <span className="mx-2">/</span>
-              <span className="text-gray-700">{category.name}</span>
+              <span className="text-white/90">{category.name}</span>
             </nav>
-            <h1 className="text-4xl lg:text-5xl font-bold tracking-tight text-gray-900 mb-4">
-              {category.name}
-            </h1>
-            <p className="text-lg text-gray-700 leading-relaxed max-w-2xl">{category.description}</p>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">{category.name}</h1>
+            <p className="mt-3 text-base sm:text-lg text-white/85 max-w-3xl leading-relaxed">{category.description}</p>
+            <p className="mt-3 text-sm text-white/70">
+              {articles.length > 0
+                ? `${articles.length} ${articles.length === 1 ? (locale === 'mk' ? 'статија' : 'article') : locale === 'mk' ? 'статии' : 'articles'}`
+                : ''}
+            </p>
           </div>
         </section>
 
-        <section className="py-12 bg-white border-t border-gray-100">
+        {/* ARTICLES */}
+        <section className="py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-xl font-bold text-gray-900 mb-8">{t.common.articlesInCategory}</h2>
             {articles.length > 0 ? (
@@ -81,10 +100,7 @@ export default function CategoryView({ locale, slug }: { locale: Locale; slug: s
             ) : (
               <div className="text-center py-16 border border-dashed border-gray-200 rounded-2xl">
                 <p className="text-gray-500 mb-4">{t.common.noResults}</p>
-                <Link
-                  href={localizedHref(locale, '/contact')}
-                  className="inline-flex items-center text-[#1E4DB7] hover:text-[#163d92] font-medium"
-                >
+                <Link href={localizedHref(locale, '/contact')} className="inline-flex items-center text-[#1E4DB7] hover:text-[#163d92] font-medium">
                   {t.nav.cta}
                   <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>

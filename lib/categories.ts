@@ -6,6 +6,7 @@ export interface RawCategory {
   id: string;
   slug: string;
   icon: string;
+  image?: string;
   name_en: string;
   name_mk: string;
   description_en: string;
@@ -16,6 +17,7 @@ export interface Category {
   id: string;
   slug: string;
   icon: string;
+  image?: string;
   name: string;
   description: string;
 }
@@ -27,6 +29,7 @@ function localise(c: RawCategory, locale: Locale): Category {
     id: c.id,
     slug: c.slug,
     icon: c.icon,
+    image: c.image,
     name: locale === 'mk' ? c.name_mk : c.name_en,
     description: locale === 'mk' ? c.description_mk : c.description_en,
   };
