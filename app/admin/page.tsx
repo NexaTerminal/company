@@ -1,17 +1,21 @@
 import Link from 'next/link';
-import { Plus, Pencil, Globe } from 'lucide-react';
+import { Plus, Pencil, Globe, AlertTriangle } from 'lucide-react';
 import AdminHeader from '@/components/admin/AdminHeader';
 import { Button } from '@/components/ui/button';
-import { listArticles } from '@/lib/admin/articles';
+import { listArticles, type ArticleSummary } from '@/lib/admin/articles';
 import { getCategories } from '@/lib/categories';
 
 export const dynamic = 'force-dynamic';
 
 export default async function AdminDashboard() {
-  const [articles, categories] = await Promise.all([
-    listArticles().catch(() => []),
-    Promise.resolve(getCategories('en')),
-  ]);
+  const categories = getCategories('en');
+  let articles: ArticleSummary[] = [];
+  let storageError: string | null = null;
+  try {
+    articles = await listArticles();
+  } catch (err) {
+    storageError = err instanceof Error ? err.message : String(err);
+  }
 
   const byCategory = categories.map((c) => ({
     category: c,
@@ -31,6 +35,17 @@ export default async function AdminDashboard() {
             <Link href="/admin/articles/new"><Plus className="h-4 w-4 mr-1.5" /> New article</Link>
           </Button>
         </div>
+
+        {storageError && (
+          <div className="mb-8 rounded-xl border border-amber-300 bg-amber-50 p-4 flex items-start gap-3">
+            <AlertTriangle className="h-5 w-5 text-amber-600 shrink-0 mt-0.5" />
+            <div className="text-sm text-amber-900">
+              <p className="font-semibold">Content storage isn’t configured.</p>
+              <p className="mt-1">Editing needs the GitHub storage env vars in Vercel (<code>GITHUB_TOKEN</code>, <code>GITHUB_REPO</code>, <code>GITHUB_BRANCH</code>) plus <code>STORAGE_DRIVER=github</code>, then a redeploy. Details:</p>
+              <p className="mt-1 font-mono text-xs text-amber-800 break-all">{storageError}</p>
+            </div>
+          </div>
+        )}
 
         <div className="space-y-8">
           {byCategory.map(({ category, items }) => (

@@ -21,9 +21,14 @@ async function readArray(relPath: string): Promise<FileState> {
     const { content, sha } = await getStorage().readFile(relPath);
     const parsed = JSON.parse(content);
     return { articles: Array.isArray(parsed) ? (parsed as BlogArticle[]) : [], sha };
-  } catch {
-    // File may not exist yet — treat as empty.
-    return { articles: [], sha: null };
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    // A genuinely missing file is fine (empty topic). But an auth/config error
+    // (missing GITHUB_TOKEN, 401/403, etc.) must surface, not look like "no articles".
+    if (msg.includes('404') || msg.includes('ENOENT') || msg.includes('no such file')) {
+      return { articles: [], sha: null };
+    }
+    throw new Error(`Storage read failed for ${relPath}: ${msg}`);
   }
 }
 
