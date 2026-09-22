@@ -1,1 +1,182 @@
-[]
+[
+  {
+    "id": "dp-1",
+    "slug": "gdpr-for-businesses-north-macedonia",
+    "category_id": "5",
+    "title": "Personal Data Protection (GDPR) for Businesses in North Macedonia",
+    "excerpt": "If your business handles personal data — of customers, employees or website visitors — the Law on Personal Data Protection applies. It mirrors the EU GDPR: lawful bases, data-subject rights, breach notification within 72 hours, and fines of up to 4% of annual income.",
+    "author": "Nexa Legal Network",
+    "publishedDate": "2026-09-22",
+    "updatedDate": "2026-09-22",
+    "readingTime": "7 min read",
+    "image": "/categories/data-protection.jpg",
+    "content": {
+      "introduction": "<p>Almost every business processes personal data — customer names and emails, employee records, CCTV footage, website analytics. In North Macedonia this is governed by the <strong>Law on Personal Data Protection</strong>, which closely mirrors the EU's GDPR. If you decide why and how personal data is processed, you are a <strong>controller</strong> and you carry legal obligations, enforced by the Agency for Personal Data Protection (AZLP), with fines that can reach a percentage of your annual income. This guide covers the essentials every business owner should know.</p>",
+      "sections": [
+        {
+          "heading": "Does the law apply to you?",
+          "level": 2,
+          "paragraphs": [
+            "<p>The law applies to any <strong>controller</strong> (the business that determines the purposes and means of processing) or <strong>processor</strong> (a party that processes data on the controller's behalf, such as an IT provider) established in North Macedonia — regardless of where the processing physically happens. It also reaches businesses not established in the country when they process the data of people in North Macedonia in connection with offering them goods or services or monitoring their behaviour. In practice: if you hold data about identifiable people, the law applies to you.</p>"
+          ]
+        },
+        {
+          "heading": "You need a lawful basis to process data",
+          "level": 2,
+          "paragraphs": [
+            "<p>You cannot process personal data just because it is useful. Each processing activity needs a <strong>lawful basis</strong>, most commonly: the person's <strong>consent</strong>; the performance of a <strong>contract</strong> with them (e.g. fulfilling an order); a <strong>legal obligation</strong> (e.g. keeping tax records); protecting someone's <strong>vital interests</strong>; a <strong>public interest</strong> task; or your <strong>legitimate interests</strong>, where these are not overridden by the person's rights. Consent, when used, must be freely given, specific and clearly affirmative — pre-ticked boxes do not count.</p>"
+          ]
+        },
+        {
+          "heading": "The core principles",
+          "level": 2,
+          "paragraphs": [
+            "<p>Processing must follow a set of principles: <strong>lawfulness, fairness and transparency</strong>; <strong>purpose limitation</strong> (collect data for specified purposes, don't repurpose it freely); <strong>data minimisation</strong> (only what you need); <strong>accuracy</strong>; <strong>storage limitation</strong> (don't keep it longer than necessary); and <strong>integrity and confidentiality</strong> (keep it secure). You must also be able to demonstrate compliance — accountability is itself an obligation.</p>"
+          ]
+        },
+        {
+          "heading": "People's rights",
+          "level": 2,
+          "paragraphs": [
+            "<p>Individuals whose data you hold (data subjects) have rights you must be ready to honour: to be <strong>informed</strong> about your processing (usually via a privacy notice), and to <strong>access</strong>, <strong>rectify</strong>, <strong>erase</strong>, <strong>restrict</strong>, <strong>object to</strong> and <strong>port</strong> their data. As a rule you must respond without undue delay and within one month of a request. Build a simple internal process so requests do not catch you off guard.</p>"
+          ]
+        },
+        {
+          "heading": "Security and data breaches",
+          "level": 2,
+          "paragraphs": [
+            "<p>You must apply appropriate technical and organisational security measures. If a <strong>personal data breach</strong> occurs, you must notify the Agency <strong>without delay and no later than 72 hours</strong> after becoming aware of it; if you report later, you must explain the delay. Where the breach is likely to result in a high risk to the affected individuals, you must also inform them.</p>"
+          ]
+        },
+        {
+          "heading": "The Agency and penalties",
+          "level": 2,
+          "paragraphs": [
+            "<p>The supervisory authority is the <strong>Agency for Personal Data Protection (AZLP)</strong>, an independent state body that oversees compliance and handles complaints. Penalties are significant: depending on the violation, fines can reach <strong>up to 2%</strong> of a legal entity's total annual income, and for the most serious breaches <strong>up to 4%</strong>, alongside fixed fines for responsible persons. Beyond the fine, the reputational cost of mishandling customer data is often larger.</p>",
+            "<p>Two obligations deserve their own guides: whether you must appoint a <a href=\"/blog/data-protection-officer-north-macedonia\">Data Protection Officer</a>, and the specific rules for <a href=\"/blog/video-surveillance-rules-north-macedonia\">video surveillance</a>.</p>"
+          ]
+        }
+      ]
+    },
+    "seo": {
+      "metaTitle": "GDPR for Businesses in North Macedonia — Data Protection Basics",
+      "metaDescription": "What the Law on Personal Data Protection means for businesses in North Macedonia: lawful bases, principles, data-subject rights, 72-hour breach notice, the AZLP and fines up to 4%.",
+      "keywords": ["GDPR North Macedonia", "personal data protection law", "заштита на лични податоци", "data controller obligations", "AZLP", "data breach notification 72 hours"]
+    },
+    "faq": [
+      { "question": "Does North Macedonia's data protection law apply to my small business?", "answer": "Yes, if you process personal data of identifiable people — customers, employees, visitors — you are a controller with obligations under the Law on Personal Data Protection, regardless of your size." },
+      { "question": "Do I always need consent to process personal data?", "answer": "No. Consent is one of several lawful bases. Others include performing a contract, a legal obligation, vital or public interests, and legitimate interests. You need at least one valid basis for each processing activity." },
+      { "question": "How quickly must I report a data breach?", "answer": "Without delay and no later than 72 hours after becoming aware of it, to the Agency for Personal Data Protection; a later report must be justified. Affected individuals must be told if the risk to them is high." },
+      { "question": "What are the fines for breaking the data protection law?", "answer": "Depending on the violation, up to 2% of a legal entity's total annual income, and up to 4% for the most serious breaches, plus fixed fines for responsible individuals." },
+      { "question": "Who enforces data protection in North Macedonia?", "answer": "The Agency for Personal Data Protection (AZLP), an independent supervisory authority that oversees compliance and handles complaints." }
+    ],
+    "relatedArticles": ["data-protection-officer-north-macedonia", "video-surveillance-rules-north-macedonia", "register-company-north-macedonia"]
+  },
+  {
+    "id": "dp-2",
+    "slug": "data-protection-officer-north-macedonia",
+    "category_id": "5",
+    "title": "Do You Need a Data Protection Officer (DPO)?",
+    "excerpt": "Not every business must appoint a Data Protection Officer. The law makes it mandatory in three situations — most often when your core activity involves large-scale, regular monitoring of people or large-scale processing of sensitive data.",
+    "author": "Nexa Legal Network",
+    "publishedDate": "2026-09-22",
+    "updatedDate": "2026-09-22",
+    "readingTime": "5 min read",
+    "image": "/categories/data-protection.jpg",
+    "content": {
+      "introduction": "<p>A Data Protection Officer (officer for personal data protection / офицер за заштита на личните податоци) is an expert who oversees your compliance with the data protection law. Many owners assume every company needs one — in fact the law makes it mandatory only in specific situations. This guide explains when you must appoint a DPO, and what they do.</p>",
+      "sections": [
+        {
+          "heading": "When a DPO is mandatory",
+          "level": 2,
+          "paragraphs": [
+            "<p>Under the Law on Personal Data Protection, a controller or processor must appoint a DPO in any of these cases:</p>",
+            "<ul><li><strong>Public authority</strong> — the processing is carried out by a state body (courts acting in their judicial capacity are an exception).</li><li><strong>Large-scale regular and systematic monitoring</strong> — your <em>core</em> activities consist of processing operations that, by their nature, scope and/or purposes, require regular and systematic monitoring of individuals on a large scale (for example, extensive tracking or profiling).</li><li><strong>Large-scale sensitive data</strong> — your core activities consist of large-scale processing of special categories of data (health, biometric, religious or political data, etc.) or data on criminal convictions and offences.</li></ul>",
+            "<p>The key words are <strong>core activities</strong> and <strong>large scale</strong>. Processing that is merely ancillary to your business (like ordinary payroll) does not usually trigger the requirement. If none of the three cases applies, appointing a DPO is optional — but still allowed, and sometimes worthwhile.</p>"
+          ]
+        },
+        {
+          "heading": "One DPO for a group",
+          "level": 2,
+          "paragraphs": [
+            "<p>A group of companies may designate a <strong>single DPO</strong>, provided the officer is easily reachable by each entity in the group, by the Agency, and by data subjects. This makes compliance more efficient for company groups without each entity hiring its own officer.</p>"
+          ]
+        },
+        {
+          "heading": "What the DPO does",
+          "level": 2,
+          "paragraphs": [
+            "<p>The DPO is chosen on the basis of professional qualifications and expert knowledge of data protection law and practice. Their role is to inform and advise the organisation on its obligations, monitor compliance, advise on data protection impact assessments, cooperate with the Agency, and act as the contact point for the Agency and for individuals. Their contact details are typically published in your privacy notice and provided to the Agency.</p>"
+          ]
+        }
+      ]
+    },
+    "seo": {
+      "metaTitle": "Do You Need a Data Protection Officer (DPO) in North Macedonia?",
+      "metaDescription": "When North Macedonia's data protection law requires a Data Protection Officer: public authorities, large-scale regular monitoring, or large-scale sensitive-data processing — plus the group option and the DPO's role.",
+      "keywords": ["Data Protection Officer North Macedonia", "офицер за заштита на личните податоци", "DPO mandatory", "when do I need a DPO", "large scale processing", "data protection compliance"]
+    },
+    "faq": [
+      { "question": "Does every company need a Data Protection Officer?", "answer": "No. A DPO is mandatory only for public authorities, for businesses whose core activities require large-scale regular and systematic monitoring of people, or whose core activities involve large-scale processing of special categories or criminal data. Otherwise it is optional." },
+      { "question": "Can a group of companies share one DPO?", "answer": "Yes. A group may appoint a single DPO, provided the officer is easily accessible to each company in the group, to the Agency, and to data subjects." },
+      { "question": "What does a DPO actually do?", "answer": "They advise the organisation on its data protection obligations, monitor compliance, advise on impact assessments, cooperate with the Agency, and serve as the contact point for the Agency and individuals." }
+    ],
+    "relatedArticles": ["gdpr-for-businesses-north-macedonia", "video-surveillance-rules-north-macedonia"]
+  },
+  {
+    "id": "dp-3",
+    "slug": "video-surveillance-rules-north-macedonia",
+    "category_id": "5",
+    "title": "Video Surveillance (CCTV) Rules for Businesses in North Macedonia",
+    "excerpt": "If your business uses CCTV, you must adopt a formal act governing the surveillance, post a visible notice, and delete footage within 30 days. Video surveillance is regulated personal-data processing — here is what compliance requires.",
+    "author": "Nexa Legal Network",
+    "publishedDate": "2026-09-22",
+    "updatedDate": "2026-09-22",
+    "readingTime": "5 min read",
+    "image": "/categories/data-protection.jpg",
+    "content": {
+      "introduction": "<p>CCTV footage of identifiable people is personal data, so running cameras in your shop, office or premises is regulated processing under the Law on Personal Data Protection and its dedicated rulebook. You cannot simply install cameras — you must document why and how, tell people they are being filmed, and delete recordings on time. Here is what a compliant setup looks like.</p>",
+      "sections": [
+        {
+          "heading": "Adopt an act on video surveillance",
+          "level": 2,
+          "paragraphs": [
+            "<p>The controller must adopt a formal internal <strong>act on the manner of performing video surveillance</strong>. It sets out the legal basis, the purpose(s) of the surveillance, the categories of personal data captured, a description of the surveillance system, the retention period, the notice to individuals, a privacy statement, the technical specification of the equipment (number of cameras, resolution, workstations that access the system), and a plan showing where the system is installed. In short, the act is the documented justification and design of your CCTV.</p>"
+          ]
+        },
+        {
+          "heading": "Post a visible notice",
+          "level": 2,
+          "paragraphs": [
+            "<p>You must display, in a <strong>visible and clear place</strong>, a notice informing people that video surveillance is being carried out. This is a hard requirement — people must know they are being filmed before they enter the monitored area. The rulebook provides a template for this notice, and it forms part of your video surveillance act, together with a privacy statement explaining how individuals can exercise their rights.</p>"
+          ]
+        },
+        {
+          "heading": "Keep footage no longer than 30 days",
+          "level": 2,
+          "paragraphs": [
+            "<p>Recordings are kept only as long as needed to fulfil their purpose, and in principle <strong>no longer than 30 days</strong>, after which they are automatically deleted from the storage medium. Longer retention is allowed only where another law requires it, or where it is genuinely necessary for the controller's legitimate interest in pursuing a legal procedure — in which case you must set internal rules for how such footage is stored and deleted. Keep an access log recording who received a copy of any footage and when.</p>"
+          ]
+        },
+        {
+          "heading": "Respect people's rights",
+          "level": 2,
+          "paragraphs": [
+            "<p>Individuals captured by your cameras keep their data-protection rights — including the right to be informed and, subject to conditions, to access footage of themselves. Your video surveillance act must describe how people can exercise these rights, and you must define the technical specification of the equipment used. Getting the paperwork right is what turns a set of cameras into lawful surveillance.</p>"
+          ]
+        }
+      ]
+    },
+    "seo": {
+      "metaTitle": "Video Surveillance (CCTV) Rules for Businesses — North Macedonia",
+      "metaDescription": "CCTV rules for businesses in North Macedonia: adopt a video surveillance act, post a visible notice, keep footage no longer than 30 days, and respect data-subject rights.",
+      "keywords": ["video surveillance North Macedonia", "CCTV rules business", "видеонадзор правилник", "camera notice data protection", "footage retention 30 days", "video surveillance act"]
+    },
+    "faq": [
+      { "question": "Can my business install CCTV cameras freely?", "answer": "No. CCTV of identifiable people is regulated processing. You must adopt a formal act on video surveillance, post a visible notice, limit retention, and respect people's rights." },
+      { "question": "How long can I keep CCTV footage?", "answer": "In principle no longer than 30 days, after which it is automatically deleted, unless another law requires longer or it is genuinely necessary for a legal procedure under documented internal rules." },
+      { "question": "Do I have to tell people they are being filmed?", "answer": "Yes. You must display a clear, visible notice that video surveillance is being carried out, before people enter the monitored area, together with a privacy statement." }
+    ],
+    "relatedArticles": ["gdpr-for-businesses-north-macedonia", "data-protection-officer-north-macedonia"]
+  }
+]

@@ -397,3 +397,113 @@ A: Yes. A registered business deducts input VAT on business purchases from the o
 
 Q: Should I register voluntarily below the threshold?
 A: Often yes if you trade mainly with VAT-registered partners and buy taxable inputs, since registration lets you reclaim input VAT. Voluntary registrants usually commit to a minimum registration period.
+
+---
+## Personal Data Protection (GDPR) for Businesses in North Macedonia
+URL: https://company.nexa.mk/blog/gdpr-for-businesses-north-macedonia
+Category: Data Protection (GDPR)
+Published: 2026-09-22
+Updated: 2026-09-22
+Summary: If your business handles personal data — of customers, employees or website visitors — the Law on Personal Data Protection applies. It mirrors the EU GDPR: lawful bases, data-subject rights, breach notification within 72 hours, and fines of up to 4% of annual income.
+
+Almost every business processes personal data — customer names and emails, employee records, CCTV footage, website analytics. In North Macedonia this is governed by the Law on Personal Data Protection, which closely mirrors the EU's GDPR. If you decide why and how personal data is processed, you are a controller and you carry legal obligations, enforced by the Agency for Personal Data Protection (AZLP), with fines that can reach a percentage of your annual income. This guide covers the essentials every business owner should know.
+
+### Does the law apply to you?
+The law applies to any controller (the business that determines the purposes and means of processing) or processor (a party that processes data on the controller's behalf, such as an IT provider) established in North Macedonia — regardless of where the processing physically happens. It also reaches businesses not established in the country when they process the data of people in North Macedonia in connection with offering them goods or services or monitoring their behaviour. In practice: if you hold data about identifiable people, the law applies to you.
+
+### You need a lawful basis to process data
+You cannot process personal data just because it is useful. Each processing activity needs a lawful basis, most commonly: the person's consent; the performance of a contract with them (e.g. fulfilling an order); a legal obligation (e.g. keeping tax records); protecting someone's vital interests; a public interest task; or your legitimate interests, where these are not overridden by the person's rights. Consent, when used, must be freely given, specific and clearly affirmative — pre-ticked boxes do not count.
+
+### The core principles
+Processing must follow a set of principles: lawfulness, fairness and transparency; purpose limitation (collect data for specified purposes, don't repurpose it freely); data minimisation (only what you need); accuracy; storage limitation (don't keep it longer than necessary); and integrity and confidentiality (keep it secure). You must also be able to demonstrate compliance — accountability is itself an obligation.
+
+### People's rights
+Individuals whose data you hold (data subjects) have rights you must be ready to honour: to be informed about your processing (usually via a privacy notice), and to access, rectify, erase, restrict, object to and port their data. As a rule you must respond without undue delay and within one month of a request. Build a simple internal process so requests do not catch you off guard.
+
+### Security and data breaches
+You must apply appropriate technical and organisational security measures. If a personal data breach occurs, you must notify the Agency without delay and no later than 72 hours after becoming aware of it; if you report later, you must explain the delay. Where the breach is likely to result in a high risk to the affected individuals, you must also inform them.
+
+### The Agency and penalties
+The supervisory authority is the Agency for Personal Data Protection (AZLP), an independent state body that oversees compliance and handles complaints. Penalties are significant: depending on the violation, fines can reach up to 2% of a legal entity's total annual income, and for the most serious breaches up to 4%, alongside fixed fines for responsible persons. Beyond the fine, the reputational cost of mishandling customer data is often larger.
+Two obligations deserve their own guides: whether you must appoint a Data Protection Officer, and the specific rules for video surveillance.
+
+### FAQ
+Q: Does North Macedonia's data protection law apply to my small business?
+A: Yes, if you process personal data of identifiable people — customers, employees, visitors — you are a controller with obligations under the Law on Personal Data Protection, regardless of your size.
+
+Q: Do I always need consent to process personal data?
+A: No. Consent is one of several lawful bases. Others include performing a contract, a legal obligation, vital or public interests, and legitimate interests. You need at least one valid basis for each processing activity.
+
+Q: How quickly must I report a data breach?
+A: Without delay and no later than 72 hours after becoming aware of it, to the Agency for Personal Data Protection; a later report must be justified. Affected individuals must be told if the risk to them is high.
+
+Q: What are the fines for breaking the data protection law?
+A: Depending on the violation, up to 2% of a legal entity's total annual income, and up to 4% for the most serious breaches, plus fixed fines for responsible individuals.
+
+Q: Who enforces data protection in North Macedonia?
+A: The Agency for Personal Data Protection (AZLP), an independent supervisory authority that oversees compliance and handles complaints.
+
+---
+## Do You Need a Data Protection Officer (DPO)?
+URL: https://company.nexa.mk/blog/data-protection-officer-north-macedonia
+Category: Data Protection (GDPR)
+Published: 2026-09-22
+Updated: 2026-09-22
+Summary: Not every business must appoint a Data Protection Officer. The law makes it mandatory in three situations — most often when your core activity involves large-scale, regular monitoring of people or large-scale processing of sensitive data.
+
+A Data Protection Officer (officer for personal data protection / офицер за заштита на личните податоци) is an expert who oversees your compliance with the data protection law. Many owners assume every company needs one — in fact the law makes it mandatory only in specific situations. This guide explains when you must appoint a DPO, and what they do.
+
+### When a DPO is mandatory
+Under the Law on Personal Data Protection, a controller or processor must appoint a DPO in any of these cases:
+Public authority — the processing is carried out by a state body (courts acting in their judicial capacity are an exception).
+Large-scale regular and systematic monitoring — your core activities consist of processing operations that, by their nature, scope and/or purposes, require regular and systematic monitoring of individuals on a large scale (for example, extensive tracking or profiling).
+Large-scale sensitive data — your core activities consist of large-scale processing of special categories of data (health, biometric, religious or political data, etc.) or data on criminal convictions and offences.
+The key words are core activities and large scale. Processing that is merely ancillary to your business (like ordinary payroll) does not usually trigger the requirement. If none of the three cases applies, appointing a DPO is optional — but still allowed, and sometimes worthwhile.
+
+### One DPO for a group
+A group of companies may designate a single DPO, provided the officer is easily reachable by each entity in the group, by the Agency, and by data subjects. This makes compliance more efficient for company groups without each entity hiring its own officer.
+
+### What the DPO does
+The DPO is chosen on the basis of professional qualifications and expert knowledge of data protection law and practice. Their role is to inform and advise the organisation on its obligations, monitor compliance, advise on data protection impact assessments, cooperate with the Agency, and act as the contact point for the Agency and for individuals. Their contact details are typically published in your privacy notice and provided to the Agency.
+
+### FAQ
+Q: Does every company need a Data Protection Officer?
+A: No. A DPO is mandatory only for public authorities, for businesses whose core activities require large-scale regular and systematic monitoring of people, or whose core activities involve large-scale processing of special categories or criminal data. Otherwise it is optional.
+
+Q: Can a group of companies share one DPO?
+A: Yes. A group may appoint a single DPO, provided the officer is easily accessible to each company in the group, to the Agency, and to data subjects.
+
+Q: What does a DPO actually do?
+A: They advise the organisation on its data protection obligations, monitor compliance, advise on impact assessments, cooperate with the Agency, and serve as the contact point for the Agency and individuals.
+
+---
+## Video Surveillance (CCTV) Rules for Businesses in North Macedonia
+URL: https://company.nexa.mk/blog/video-surveillance-rules-north-macedonia
+Category: Data Protection (GDPR)
+Published: 2026-09-22
+Updated: 2026-09-22
+Summary: If your business uses CCTV, you must adopt a formal act governing the surveillance, post a visible notice, and delete footage within 30 days. Video surveillance is regulated personal-data processing — here is what compliance requires.
+
+CCTV footage of identifiable people is personal data, so running cameras in your shop, office or premises is regulated processing under the Law on Personal Data Protection and its dedicated rulebook. You cannot simply install cameras — you must document why and how, tell people they are being filmed, and delete recordings on time. Here is what a compliant setup looks like.
+
+### Adopt an act on video surveillance
+The controller must adopt a formal internal act on the manner of performing video surveillance. It sets out the legal basis, the purpose(s) of the surveillance, the categories of personal data captured, a description of the surveillance system, the retention period, the notice to individuals, a privacy statement, the technical specification of the equipment (number of cameras, resolution, workstations that access the system), and a plan showing where the system is installed. In short, the act is the documented justification and design of your CCTV.
+
+### Post a visible notice
+You must display, in a visible and clear place, a notice informing people that video surveillance is being carried out. This is a hard requirement — people must know they are being filmed before they enter the monitored area. The rulebook provides a template for this notice, and it forms part of your video surveillance act, together with a privacy statement explaining how individuals can exercise their rights.
+
+### Keep footage no longer than 30 days
+Recordings are kept only as long as needed to fulfil their purpose, and in principle no longer than 30 days, after which they are automatically deleted from the storage medium. Longer retention is allowed only where another law requires it, or where it is genuinely necessary for the controller's legitimate interest in pursuing a legal procedure — in which case you must set internal rules for how such footage is stored and deleted. Keep an access log recording who received a copy of any footage and when.
+
+### Respect people's rights
+Individuals captured by your cameras keep their data-protection rights — including the right to be informed and, subject to conditions, to access footage of themselves. Your video surveillance act must describe how people can exercise these rights, and you must define the technical specification of the equipment used. Getting the paperwork right is what turns a set of cameras into lawful surveillance.
+
+### FAQ
+Q: Can my business install CCTV cameras freely?
+A: No. CCTV of identifiable people is regulated processing. You must adopt a formal act on video surveillance, post a visible notice, limit retention, and respect people's rights.
+
+Q: How long can I keep CCTV footage?
+A: In principle no longer than 30 days, after which it is automatically deleted, unless another law requires longer or it is genuinely necessary for a legal procedure under documented internal rules.
+
+Q: Do I have to tell people they are being filmed?
+A: Yes. You must display a clear, visible notice that video surveillance is being carried out, before people enter the monitored area, together with a privacy statement.
