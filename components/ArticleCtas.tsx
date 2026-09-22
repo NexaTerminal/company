@@ -7,22 +7,20 @@ import type { Locale } from '@/lib/i18n';
 
 const COPY = {
   en: {
-    sidebarBadge: 'Free · no obligation',
     sidebarHeading: 'Have a question about your business?',
     sidebarText: 'Connect with a verified expert from the Nexa network — anonymously.',
     sidebarButton: 'Contact an expert',
     inEyebrow: 'Not sure how this applies to you?',
-    inText: 'Get a clear answer from a verified expert — no obligation.',
+    inText: 'Get a clear answer from a verified expert.',
     inButton: 'Ask an expert',
     floating: 'Contact an expert',
   },
   mk: {
-    sidebarBadge: 'Бесплатно · без обврска',
     sidebarHeading: 'Имате прашање за вашиот бизнис?',
     sidebarText: 'Поврзете се со верифициран експерт од Nexa мрежата — анонимно.',
     sidebarButton: 'Поврзете се со експерт',
     inEyebrow: 'Не сте сигурни како ова се однесува на вас?',
-    inText: 'Добијте јасен одговор од верифициран експерт — без обврска.',
+    inText: 'Добијте јасен одговор од верифициран експерт.',
     inButton: 'Прашајте експерт',
     floating: 'Поврзете се со експерт',
   },
@@ -39,9 +37,6 @@ export function SidebarContactCta({ locale }: { locale: Locale }) {
       <div className="relative overflow-hidden rounded-2xl border-2 border-[#1E4DB7]/25 bg-gradient-to-br from-blue-50 via-white to-white shadow-lg">
         <div className="h-1.5 bg-gradient-to-r from-[#1E4DB7] to-[#2BB3C0]" />
         <div className="p-5 space-y-4">
-          <span className="inline-flex items-center rounded-full bg-green-100 px-3 py-1 text-xs font-semibold text-green-700 ring-1 ring-green-600/20">
-            {c.sidebarBadge}
-          </span>
           <div className="space-y-2">
             <h3 className="text-lg font-bold leading-tight text-gray-900">{c.sidebarHeading}</h3>
             <p className="text-sm text-gray-600 leading-relaxed">{c.sidebarText}</p>

@@ -9,7 +9,7 @@ const COPY = {
   en: {
     badge: 'Verified Nexa network · anonymous',
     heading: 'Need help with this?',
-    sub: 'Tell us a little about your situation and we will connect you with a verified expert from the Nexa network. No obligation.',
+    sub: 'Tell us a little about your situation and we will connect you with a verified expert from the Nexa network.',
     email: 'Your email',
     emailPh: 'you@example.com',
     message: 'How can we help?',
@@ -23,7 +23,7 @@ const COPY = {
   mk: {
     badge: 'Верифицирана Nexa мрежа · анонимно',
     heading: 'Потребна ви е помош со ова?',
-    sub: 'Кажете ни накратко за вашата ситуација и ќе ве поврземе со верифициран експерт од Nexa мрежата. Без обврска.',
+    sub: 'Кажете ни накратко за вашата ситуација и ќе ве поврземе со верифициран експерт од Nexa мрежата.',
     email: 'Вашата е-пошта',
     emailPh: 'vie@primer.com',
     message: 'Како можеме да помогнеме?',

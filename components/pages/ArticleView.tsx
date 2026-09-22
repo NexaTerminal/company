@@ -106,7 +106,7 @@ export default function ArticleView({ locale, slug }: { locale: Locale; slug: st
         <section className="relative h-[420px] sm:h-[500px] overflow-hidden">
           <Image src={heroSrc} alt={article.title} fill sizes="100vw" priority quality={85} className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-gray-950/90 via-gray-950/55 to-gray-900/20" />
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-10">
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-16 lg:pb-20">
             {/* Breadcrumb */}
             <nav className="text-sm text-white/70 mb-3" aria-label="Breadcrumb">
               <Link href={localizedHref(locale, '/')} className="hover:text-white">{t.common.backToHome}</Link>
@@ -141,12 +141,13 @@ export default function ArticleView({ locale, slug }: { locale: Locale; slug: st
         </section>
 
         {/* CONTENT + SIDEBAR */}
-        <section className="py-10 lg:py-12">
+        <section className="relative z-10 bg-slate-50 pb-14 lg:pb-20 -mt-6 lg:-mt-10 rounded-t-[1.75rem] lg:rounded-t-[2.5rem]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 pt-10 lg:pt-12">
               {/* Main column */}
               <div className="lg:col-span-8 min-w-0">
-                <article className="max-w-3xl">
+                <div className="rounded-3xl bg-white shadow-[0_1px_3px_rgba(15,23,42,0.06),0_20px_40px_-24px_rgba(15,23,42,0.18)] ring-1 ring-slate-200/60 px-5 py-8 sm:px-10 sm:py-12">
+                <article>
                   {article.content.introduction && (
                     <div className="text-lg leading-relaxed text-gray-800 mb-8 [&_a]:text-[#1E4DB7] [&_a:hover]:underline"
                       dangerouslySetInnerHTML={{ __html: article.content.introduction }} />
@@ -182,16 +183,16 @@ export default function ArticleView({ locale, slug }: { locale: Locale; slug: st
 
                 {/* Visible FAQ */}
                 {article.faq && article.faq.length > 0 && (
-                  <section className="mt-12 max-w-3xl">
+                  <section className="mt-10 pt-8 border-t border-slate-200">
                     <h2 className="text-2xl font-bold text-gray-900 tracking-tight mb-5">
                       {locale === 'mk' ? 'Често поставувани прашања' : 'Frequently asked questions'}
                     </h2>
                     <div className="space-y-3">
                       {article.faq.map((f, i) => (
-                        <details key={i} className="group rounded-xl border border-gray-200 bg-slate-50 p-5">
-                          <summary className="cursor-pointer font-semibold text-gray-900 list-none flex items-center justify-between">
+                        <details key={i} className="group rounded-xl border border-slate-200 bg-slate-50/70 p-5 open:bg-white open:ring-1 open:ring-slate-200 transition-colors">
+                          <summary className="cursor-pointer font-semibold text-gray-900 list-none flex items-center justify-between gap-3">
                             {f.question}
-                            <ChevronRight className="h-4 w-4 text-gray-400 group-open:rotate-90 transition-transform" />
+                            <ChevronRight className="h-4 w-4 shrink-0 text-gray-400 group-open:rotate-90 transition-transform" />
                           </summary>
                           <div className="mt-3 text-gray-700 leading-relaxed [&_a]:text-[#1E4DB7]" dangerouslySetInnerHTML={{ __html: f.answer }} />
                         </details>
@@ -199,9 +200,10 @@ export default function ArticleView({ locale, slug }: { locale: Locale; slug: st
                     </div>
                   </section>
                 )}
+                </div>
 
                 {/* Inline contact form */}
-                <div id="contact-form-section" className="scroll-mt-24 mt-10 max-w-3xl">
+                <div id="contact-form-section" className="scroll-mt-24 mt-8">
                   <BlogContactForm
                     locale={locale}
                     topicSlug={category?.slug ?? ''}

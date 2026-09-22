@@ -45,7 +45,7 @@ export default function AuthorBio({ locale, className = '' }: { locale: Locale; 
   const c = COPY[locale];
 
   return (
-    <section aria-label={c.eyebrow} className={`${className} rounded-xl border border-gray-200 bg-slate-50 p-5 sm:p-6`}>
+    <section aria-label={c.eyebrow} className={`${className} rounded-2xl bg-white ring-1 ring-slate-200/70 shadow-sm p-5 sm:p-6`}>
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
         <Image
           src="/martin-boshkoski.jpg"
