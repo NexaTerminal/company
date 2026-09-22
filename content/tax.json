@@ -38,6 +38,132 @@
       { "question": "What is the corporate profit tax rate in North Macedonia?", "answer": "The corporate profit tax is a flat 10%, among the lowest in Europe. Personal income tax is also a flat 10%." },
       { "question": "When do I have to register for VAT?", "answer": "VAT registration is mandatory once taxable turnover exceeds MKD 2,000,000 in a calendar year. You can also register voluntarily, generally within 15 days of incorporation." }
     ],
-    "relatedArticles": ["register-company-north-macedonia", "how-to-register-company-north-macedonia"]
+    "relatedArticles": ["corporate-profit-tax-north-macedonia", "vat-north-macedonia", "how-to-register-company-north-macedonia"]
+  },
+  {
+    "id": "tax-2",
+    "slug": "corporate-profit-tax-north-macedonia",
+    "category_id": "3",
+    "title": "Corporate Profit Tax in North Macedonia: A Business Owner's Guide",
+    "excerpt": "The profit tax rate is a flat 10%. The base is your accounting profit adjusted for non-deductible expenses, tax is paid monthly in advance, and the annual return is due in the following year.",
+    "author": "Nexa Legal Network",
+    "publishedDate": "2026-09-22",
+    "updatedDate": "2026-09-22",
+    "readingTime": "6 min read",
+    "image": "/categories/tax.jpg",
+    "content": {
+      "introduction": "<p>Corporate profit tax (данок на добивка) is the tax a company pays on its profit. In North Macedonia the rate is a flat <strong>10%</strong> — one of the lowest in Europe — but the amount you actually pay depends on how the taxable base is calculated, and the tax is collected in monthly advance instalments rather than in one lump sum. This guide explains the base, the rate, the payment rhythm, and how losses are treated, under the Law on Profit Tax.</p>",
+      "sections": [
+        {
+          "heading": "The rate and who pays it",
+          "level": 2,
+          "paragraphs": [
+            "<p>The profit tax rate is a flat <strong>10%</strong>. It is paid by resident companies (DOO, DOOEL, AD and other trade companies) on the profit they earn, and by non-residents on profit attributable to a permanent establishment in the country. Non-profit organisations are, as a rule, not profit-tax payers on their non-commercial activity.</p>"
+          ]
+        },
+        {
+          "heading": "How the taxable base is calculated",
+          "level": 2,
+          "paragraphs": [
+            "<p>The base is not simply your accounting profit. You start from the profit shown in your income statement and then <strong>increase it by non-deductible (unrecognised) expenses</strong> and any under-reported income. In other words, expenses your business incurred but which the law does not accept for tax purposes are added back, which raises the taxable base above the accounting profit.</p>",
+            "<p>Typical examples of expenses that are wholly or partly non-deductible include private expenses run through the company, certain entertainment and representation costs above statutory limits, penalties and fines, and amounts that exceed the caps the law sets for specific categories. Because the add-backs determine your real tax bill, this is the area where an accountant adds the most value.</p>"
+          ]
+        },
+        {
+          "heading": "Monthly advances and the annual return",
+          "level": 2,
+          "paragraphs": [
+            "<p>Profit tax is paid during the year in <strong>monthly advance instalments (аконтации)</strong>, generally based on the previous year's liability. After the year ends, you file an annual profit-tax return together with your annual account, and the difference between the advances you paid and your actual liability is settled — you either pay the shortfall or carry forward/recover the overpayment.</p>",
+            "<p>Smaller taxpayers may fall under the alternative <strong>tax on total revenue</strong> regime; where that applies, the total-revenue tax paid counts as an advance against profit tax.</p>"
+          ]
+        },
+        {
+          "heading": "Losses",
+          "level": 2,
+          "paragraphs": [
+            "<p>If your company records a loss, it can be carried forward and set against future profits, reducing the tax base in later years. The carry-forward is claimed through a request to the Public Revenue Office (UJP), submitted <strong>no later than 31 March</strong> of the year following the loss year. Keep clean documentation — the loss you carry forward is the tax loss, after the same non-deductible adjustments described above.</p>"
+          ]
+        },
+        {
+          "heading": "Withholding tax on payments abroad",
+          "level": 2,
+          "paragraphs": [
+            "<p>When a company pays certain income to non-residents — such as dividends, interest, royalties and some service fees — it generally must withhold tax at <strong>10%</strong> and pay it on the recipient's behalf, unless a double-tax treaty provides an exemption or a lower rate. The payer reports the withheld tax to the UJP by <strong>15 February</strong> of the following year. If you make cross-border payments, check whether a treaty applies before withholding.</p>"
+          ]
+        }
+      ]
+    },
+    "seo": {
+      "metaTitle": "Corporate Profit Tax in North Macedonia — Rate, Base & Deadlines",
+      "metaDescription": "How corporate profit tax works in North Macedonia: the flat 10% rate, the taxable base and non-deductible expenses, monthly advances, the annual return, losses and withholding.",
+      "keywords": ["corporate profit tax North Macedonia", "данок на добивка", "profit tax rate Macedonia", "taxable base profit tax", "withholding tax non-residents Macedonia", "monthly advance profit tax"]
+    },
+    "faq": [
+      { "question": "What is the corporate profit tax rate in North Macedonia?", "answer": "A flat 10% on taxable profit, one of the lowest rates in Europe." },
+      { "question": "Is profit tax calculated on my accounting profit?", "answer": "It starts from accounting profit but is increased by non-deductible (unrecognised) expenses and under-reported income, so the taxable base is usually higher than the accounting profit." },
+      { "question": "How is profit tax paid during the year?", "answer": "In monthly advance instalments based on the prior year, with the difference settled when you file the annual return and annual account." },
+      { "question": "Can a company carry forward a loss?", "answer": "Yes. A tax loss can be carried forward against future profits; the carry-forward is requested from the Public Revenue Office by 31 March of the year after the loss year." },
+      { "question": "Do I withhold tax when paying a foreign company?", "answer": "Payments such as dividends, interest and royalties to non-residents are generally subject to 10% withholding tax, unless a double-tax treaty grants an exemption or lower rate." }
+    ],
+    "relatedArticles": ["company-taxes-north-macedonia", "vat-north-macedonia", "register-company-north-macedonia"]
+  },
+  {
+    "id": "tax-3",
+    "slug": "vat-north-macedonia",
+    "category_id": "3",
+    "title": "VAT in North Macedonia: Registration, Rates and Filing",
+    "excerpt": "VAT registration becomes mandatory above MKD 2,000,000 of annual turnover. The standard rate is 18%, with reduced rates of 10% and 5%. Your tax period is quarterly or monthly depending on turnover.",
+    "author": "Nexa Legal Network",
+    "publishedDate": "2026-09-22",
+    "updatedDate": "2026-09-22",
+    "readingTime": "6 min read",
+    "image": "/categories/tax.jpg",
+    "content": {
+      "introduction": "<p>Value Added Tax (ДДВ) is charged on most supplies of goods and services. As a business owner your main questions are: do I have to register, what rate do I charge, how often do I file, and can I reclaim the VAT I pay on my own purchases? This guide answers each, based on the Law on Value Added Tax.</p>",
+      "sections": [
+        {
+          "heading": "When you must register",
+          "level": 2,
+          "paragraphs": [
+            "<p>VAT registration is <strong>mandatory</strong> once your total turnover in the previous calendar year exceeded <strong>MKD 2,000,000</strong>, or when you expect to exceed it at the start of your activity. When you cross the threshold during the year, you file the registration application by the <strong>15th of the month following</strong> the month in which turnover passed MKD 2,000,000.</p>",
+            "<p>You can also register <strong>voluntarily</strong> below the threshold. This is often worthwhile if you sell mainly to other VAT-registered businesses and buy taxable inputs, because registration lets you reclaim input VAT (see below). Voluntary registrants generally commit to staying registered for a minimum period.</p>"
+          ]
+        },
+        {
+          "heading": "The rates",
+          "level": 2,
+          "paragraphs": [
+            "<p>The <strong>standard rate is 18%</strong> and applies to most goods and services. Two <strong>reduced rates — 10% and 5%</strong> — apply to specific categories set by law and government decision (for example basic foodstuffs, water, medicines, books and certain other supplies). Charge the standard 18% unless the supply clearly falls within a reduced-rate category.</p>"
+          ]
+        },
+        {
+          "heading": "Your tax period and filing",
+          "level": 2,
+          "paragraphs": [
+            "<p>How often you file depends on size. If your total turnover in the previous calendar year did <strong>not exceed MKD 25,000,000</strong>, your tax period is the <strong>calendar quarter</strong>; above that, the tax period is the <strong>calendar month</strong>. For each period you submit a VAT return declaring the VAT you charged (output VAT) and pay the tax due.</p>"
+          ]
+        },
+        {
+          "heading": "Reclaiming input VAT",
+          "level": 2,
+          "paragraphs": [
+            "<p>A registered business does not bear the VAT on its own purchases used for its taxable activity. The VAT you pay on business inputs (input VAT) is deducted from the VAT you charge your customers (output VAT); you pay only the difference to the Public Revenue Office, or claim a refund when input exceeds output. This is the core reason VAT registration can benefit a growing business — but it requires proper VAT invoices and bookkeeping, and adjustments apply to assets (with longer correction periods for real estate) if their use changes.</p>"
+          ]
+        }
+      ]
+    },
+    "seo": {
+      "metaTitle": "VAT in North Macedonia — Registration, Rates & Filing (2026)",
+      "metaDescription": "VAT for businesses in North Macedonia: the MKD 2,000,000 registration threshold, the 18% standard rate (10%/5% reduced), quarterly vs monthly periods, and reclaiming input VAT.",
+      "keywords": ["VAT North Macedonia", "ДДВ регистрација", "VAT registration threshold Macedonia", "VAT rates Macedonia", "input VAT deduction", "VAT tax period Macedonia"]
+    },
+    "faq": [
+      { "question": "When is VAT registration mandatory in North Macedonia?", "answer": "When your total turnover in the previous calendar year exceeded MKD 2,000,000, or you expect to exceed it at the start of your activity. You file the application by the 15th of the month after crossing the threshold." },
+      { "question": "What are the VAT rates?", "answer": "A standard rate of 18%, with reduced rates of 10% and 5% for specific categories such as basic foodstuffs, water, medicines and books." },
+      { "question": "How often do I file VAT?", "answer": "Quarterly if your previous-year turnover did not exceed MKD 25,000,000; monthly if it did." },
+      { "question": "Can I reclaim VAT on my purchases?", "answer": "Yes. A registered business deducts input VAT on business purchases from the output VAT it charges customers, paying only the difference — provided it holds valid VAT invoices." },
+      { "question": "Should I register voluntarily below the threshold?", "answer": "Often yes if you trade mainly with VAT-registered partners and buy taxable inputs, since registration lets you reclaim input VAT. Voluntary registrants usually commit to a minimum registration period." }
+    ],
+    "relatedArticles": ["company-taxes-north-macedonia", "corporate-profit-tax-north-macedonia", "register-company-as-foreigner"]
   }
 ]

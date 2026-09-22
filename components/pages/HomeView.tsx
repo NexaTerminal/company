@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ChevronRight, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import PortalHeader from '@/components/PortalHeader';
@@ -27,6 +28,16 @@ export default function HomeView({ locale }: { locale: Locale }) {
       <main id="main" className="flex-1">
         {/* HERO */}
         <section className="relative overflow-hidden py-16 lg:py-24">
+          <Image
+            src="/home-hero.jpg"
+            alt=""
+            fill
+            priority
+            sizes="100vw"
+            aria-hidden="true"
+            className="object-cover opacity-[0.12] pointer-events-none"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/80 to-slate-50/95 pointer-events-none" />
           <div className="absolute inset-0 bg-mesh pointer-events-none" />
           <div className="absolute inset-0 bg-grid opacity-40 pointer-events-none [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_75%)]" />
           <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
