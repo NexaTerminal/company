@@ -15,7 +15,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return buildMetadata({
     locale,
     basePath: `/category/${c.slug}`,
-    title: `${c.name} — Company · Nexa`,
+    title: `${c.name} in North Macedonia (Macedonia) | Nexa`,
     description: c.description,
   });
 }

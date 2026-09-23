@@ -7,6 +7,19 @@ import { getAllArticles, getAllArticleSlugs } from '@/lib/blogData';
 // hreflang alternates are emitted per-page via the Metadata API (alternates.languages).
 // Legacy single-guide pages are EN-only and self-canonical.
 
+// High-value commercial articles (P1 keywords) crawled/indexed first.
+const PRIORITY_SLUGS = new Set([
+  'register-company-north-macedonia',
+  'company-legal-forms-north-macedonia',
+  'how-to-register-company-north-macedonia',
+  'register-company-as-foreigner',
+  'company-taxes-north-macedonia',
+  'vat-north-macedonia',
+  'change-company-manager-north-macedonia',
+  'transfer-sale-company-share-north-macedonia',
+  'company-liquidation-north-macedonia',
+]);
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const entries: MetadataRoute.Sitemap = [];
@@ -28,7 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...getAllArticleSlugs().map((slug) => ({
       path: `/blog/${slug}`,
-      priority: 0.7,
+      priority: PRIORITY_SLUGS.has(slug) ? 0.9 : 0.7,
       changeFrequency: 'monthly' as const,
     })),
   ];

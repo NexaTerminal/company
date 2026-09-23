@@ -7,11 +7,13 @@ const locale = 'en' as const;
 export const metadata = buildMetadata({
   locale,
   basePath: '/',
-  title: 'Running a Business in North Macedonia — Guides · Company · Nexa',
-  description: getDictionary(locale).tagline,
+  title: 'Company Registration in North Macedonia & Business Guides | Nexa',
+  description:
+    'Register a company in North Macedonia (Macedonia) — DOO/DOOEL formation, cost, documents and process, plus guides on company changes, tax, compliance and GDPR for business owners.',
   keywords: [
-    'company North Macedonia', 'business North Macedonia', 'company registration',
-    'company changes', 'corporate tax', 'compliance', 'GDPR', 'Central Registry',
+    'company registration Macedonia', 'company registration North Macedonia', 'register a company Macedonia',
+    'company formation Macedonia', 'open a company in Macedonia', 'start a business Macedonia',
+    'LLC registration Macedonia', 'DOO registration', 'company registration Skopje', 'Central Registry',
   ],
 });
 

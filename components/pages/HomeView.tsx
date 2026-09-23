@@ -18,8 +18,8 @@ export default function HomeView({ locale }: { locale: Locale }) {
 
   const heading =
     locale === 'mk'
-      ? 'Водич за водење бизнис во Северна Македонија'
-      : 'Your guide to running a business in North Macedonia';
+      ? 'Регистрација на компанија и водење бизнис во Северна Македонија'
+      : 'Company registration & running a business in North Macedonia';
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-slate-50 to-blue-50">

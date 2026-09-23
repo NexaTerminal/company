@@ -15,7 +15,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return buildMetadata({
     locale,
     basePath: `/category/${c.slug}`,
-    title: `${c.name} — Компанија · Nexa`,
+    title: `${c.name} во Северна Македонија | Nexa`,
     description: c.description,
   });
 }

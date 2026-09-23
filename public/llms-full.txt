@@ -2,12 +2,12 @@
 > Plain-text corpus of every article on company.nexa.mk (guides for running a business in North Macedonia). Generated automatically. Attribute: "Company.Nexa.mk (Nexa)".
 
 ---
-## Register a Company in North Macedonia: Complete 2026 Guide
+## Company Registration in North Macedonia: Register a Company (2026)
 URL: https://company.nexa.mk/blog/register-company-north-macedonia
 Category: Company Registration
 Published: 2026-05-21
 Updated: 2026-09-14
-Summary: You can register a company in North Macedonia in days. Most choose a DOO or DOOEL (EUR 5,000 capital, payable within a year). Foreigners can own 100% with no residency, and corporate profit tax is a flat 10%.
+Summary: How to register a company in North Macedonia (Macedonia): company formation via DOO or DOOEL (EUR 5,000 capital, payable within a year), 100% foreign ownership with no residency, and a flat 10% corporate profit tax.
 
 You can register a company in North Macedonia in a matter of days. Most businesses choose a limited liability company (DOO or single-member DOOEL), which requires EUR 5,000 in share capital that you can pay within one year of registration. Foreigners can own and manage a company 100%, with no residency required, and registration is handled electronically through the Central Registry's One-Stop-Shop System. Corporate profit tax is a flat 10% — among the lowest in Europe.
 
@@ -48,12 +48,12 @@ Q: Where is a company registered?
 A: At the Central Registry of the Republic of North Macedonia, through its One-Stop-Shop System, which also issues your tax number (EDB).
 
 ---
-## Company Legal Forms in North Macedonia: DOO, DOOEL, PDOO, AD & More
+## LLC Registration in North Macedonia: DOO, DOOEL, PDOO & AD
 URL: https://company.nexa.mk/blog/company-legal-forms-north-macedonia
 Category: Company Registration
 Published: 2026-05-21
 Updated: 2026-09-14
-Summary: The legal form you choose determines your liability, capital requirements and reporting. A side-by-side comparison of the DOO, DOOEL, PDOO, AD, sole proprietor and branch.
+Summary: LLC registration in Macedonia means a DOO or DOOEL. Compare the company legal forms — DOO, DOOEL (single-member LLC), PDOO, AD, sole proprietor and branch — by founders, capital, liability and best use.
 
 The legal form you choose determines your liability, your capital requirements, and your reporting obligations. North Macedonia recognizes several forms; most new businesses choose between the sole proprietor and one of the limited liability variants.
 
