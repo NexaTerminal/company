@@ -70,16 +70,16 @@ export default function CategoryView({ locale, slug }: { locale: Locale; slug: s
           ) : (
             <div className={`absolute inset-0 bg-gradient-to-br ${gradient}`} />
           )}
-          <div className="absolute inset-0 bg-gradient-to-t from-gray-950/85 via-gray-950/45 to-gray-900/25" />
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-10">
-            <nav className="text-sm text-white/70 mb-3" aria-label="Breadcrumb">
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-950/95 via-gray-950/70 to-gray-950/30" />
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-10 [text-shadow:0_2px_18px_rgba(0,0,0,0.6)]">
+            <nav className="text-sm text-white/80 mb-3" aria-label="Breadcrumb">
               <Link href={localizedHref(locale, '/')} className="hover:text-white">{t.common.backToHome}</Link>
               <span className="mx-2">/</span>
-              <span className="text-white/90">{category.name}</span>
+              <span className="text-white">{category.name}</span>
             </nav>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">{category.name}</h1>
-            <p className="mt-3 text-base sm:text-lg text-white/85 max-w-3xl leading-relaxed">{category.description}</p>
-            <p className="mt-3 text-sm text-white/70">
+            <p className="mt-3 text-base sm:text-lg text-white max-w-3xl leading-relaxed">{category.description}</p>
+            <p className="mt-3 text-sm text-white/80">
               {articles.length > 0
                 ? `${articles.length} ${articles.length === 1 ? (locale === 'mk' ? 'статија' : 'article') : locale === 'mk' ? 'статии' : 'articles'}`
                 : ''}

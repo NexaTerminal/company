@@ -105,8 +105,8 @@ export default function ArticleView({ locale, slug }: { locale: Locale; slug: st
         {/* HERO */}
         <section className="relative h-[420px] sm:h-[500px] overflow-hidden">
           <Image src={heroSrc} alt={article.title} fill sizes="100vw" priority quality={85} className="object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-gray-950/90 via-gray-950/55 to-gray-900/20" />
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-16 lg:pb-20">
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-950/95 via-gray-950/70 to-gray-950/25" />
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-16 lg:pb-20 [text-shadow:0_2px_18px_rgba(0,0,0,0.55)]">
             {/* Breadcrumb */}
             <nav className="text-sm text-white/70 mb-3" aria-label="Breadcrumb">
               <Link href={localizedHref(locale, '/')} className="hover:text-white">{t.common.backToHome}</Link>

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import TopicsNav from '@/components/TopicsNav';
 import { getCategories } from '@/lib/categories';
 import { getDictionary } from '@/lib/dictionary';
 import { localizedHref, type Locale } from '@/lib/i18n';
@@ -67,22 +68,11 @@ export default function PortalHeader({ locale }: { locale: Locale }) {
       </div>
 
       {/* Topics bar */}
-      <nav aria-label={t.nav.topics} className="border-t border-slate-100 bg-white/80">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ul className="flex items-center gap-x-5 gap-y-1 overflow-x-auto whitespace-nowrap py-2 text-sm scrollbar-none">
-            {categories.map((c) => (
-              <li key={c.slug}>
-                <Link
-                  href={localizedHref(locale, `/category/${c.slug}`)}
-                  className="text-gray-700 hover:text-[#1E4DB7] transition-colors font-medium"
-                >
-                  {c.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </nav>
+      <TopicsNav
+        locale={locale}
+        label={t.nav.topics}
+        categories={categories.map((c) => ({ slug: c.slug, name: c.name }))}
+      />
     </header>
   );
 }
