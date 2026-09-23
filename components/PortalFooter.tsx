@@ -11,6 +11,7 @@ const SISTER_LINKS = [
   { href: 'https://macedoniancitizenship.mk', en: 'Macedonian Citizenship', mk: 'Македонско државјанство' },
   { href: 'https://iplaw.nexa.mk', en: 'IP Law (Trademarks & Patents)', mk: 'Право на интелектуална сопственост' },
   { href: 'https://topics.nexa.mk', en: 'Topics — Expert Q&A', mk: 'Topics — Експертски прашања' },
+  { href: 'https://properties.nexa.mk', en: 'Real Estate — buying & renting', mk: 'Недвижности — купување и изнајмување' },
 ];
 
 const MBA_URL = 'https://mba.org.mk/index.php/mk/imenik-advokati/imenik-aktivni-advokati';

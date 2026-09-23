@@ -23,6 +23,7 @@ const SISTER_LINKS = [
   { href: 'https://macedoniancitizenship.mk', en: 'Macedonian Citizenship', mk: 'Македонско државјанство' },
   { href: 'https://iplaw.nexa.mk', en: 'IP Law (Trademarks & Patents)', mk: 'Право на интелектуална сопственост' },
   { href: 'https://topics.nexa.mk', en: 'Topics — Expert Q&A', mk: 'Topics — Експертски прашања' },
+  { href: 'https://properties.nexa.mk', en: 'Real Estate — buying & renting', mk: 'Недвижности — купување и изнајмување' },
 ];
 
 export default function SiteFooter({ language }: { language: Lang }) {
