@@ -399,6 +399,113 @@ Q: Should I register voluntarily below the threshold?
 A: Often yes if you trade mainly with VAT-registered partners and buy taxable inputs, since registration lets you reclaim input VAT. Voluntary registrants usually commit to a minimum registration period.
 
 ---
+## Company Compliance in North Macedonia: An Annual Checklist
+URL: https://company.nexa.mk/blog/company-compliance-checklist-north-macedonia
+Category: Compliance
+Published: 2026-09-23
+Updated: 2026-09-23
+Summary: Running a company means recurring legal obligations, not just registration. This checklist covers the essentials: annual accounts, beneficial-owner registration, tax filings, employment, health & safety, archiving and data protection.
+
+Registering a company is the start, not the finish. Once you are operating, a set of recurring obligations keeps your company legally compliant in North Macedonia (Macedonia) — and missing them can mean fines, blocked accounts, or problems at inspection. This is a practical, plain-language checklist of the main ongoing compliance duties for a business owner. Treat it as a map; the specifics of each item depend on your size, activity and sector.
+
+### Annual accounts and bookkeeping
+Every company must keep proper books and file an annual account (годишна сметка) for the previous business year with the Central Registry. As a rule the deadline is the end of February (with the electronic-submission window running slightly later, generally to mid-March). Keeping accurate, up-to-date accounting throughout the year is what makes this filing — and your tax returns — straightforward.
+
+### Beneficial owner (UBO) registration
+Companies must register their ultimate beneficial owner(s) — the natural person(s) who ultimately own or control the company — in the beneficial-owners register kept by the Central Registry. This must be done shortly after incorporation and updated on any change (typically within 8 days of the change). It is an anti-money-laundering obligation, and late registration attracts escalating fees, so keep it current whenever ownership or control changes.
+
+### Tax filings and payments
+Your tax calendar runs all year: monthly profit-tax advances and the annual profit-tax return, VAT returns for each tax period if you are VAT-registered, and payroll taxes and contributions on salaries. Getting these right is a compliance function as much as a financial one — see our guides to company taxes, corporate profit tax and VAT.
+
+### Employment obligations
+If you have staff, you must register each employee with the relevant agency before they start, keep employment contracts and personnel records, pay salaries and contributions on time, and observe working-time and leave rules. Employee records also carry long retention periods (see archiving below).
+
+### Occupational health & safety
+Employers must put occupational health and safety measures in place — most importantly a written safety statement with a risk assessment for each workplace, safety training, and health checks. This is a common inspection focus. See the dedicated guide: occupational health & safety obligations for employers.
+
+### Archiving and records
+Businesses must manage and retain their documents according to the archiving rules — with a retention plan and defined storage. Some records must be kept for many years (payroll and personnel records especially). See: business records & archiving obligations.
+
+### Data protection (GDPR)
+If you process personal data — of customers, employees or via CCTV — you have obligations under the Law on Personal Data Protection. See our GDPR guide for businesses. Depending on your activity you may also need sector-specific licences or permits; check what applies to your line of business.
+
+### FAQ
+Q: When are annual accounts due in North Macedonia?
+A: The annual account for the previous year is filed with the Central Registry, as a rule by the end of February, with the electronic-submission window running slightly later (generally to mid-March).
+
+Q: When must I register my company's beneficial owner?
+A: Shortly after incorporation and on any change of ownership or control — typically within 8 days of the change — in the beneficial-owners register at the Central Registry. Late registration attracts escalating fees.
+
+Q: What are the main ongoing compliance obligations for a company?
+A: Bookkeeping and annual accounts, beneficial-owner registration, tax filings (profit tax, VAT, payroll), employment obligations, occupational health & safety, archiving, and data protection — plus any sector licences.
+
+---
+## Occupational Health & Safety Obligations for Employers
+URL: https://company.nexa.mk/blog/occupational-health-safety-north-macedonia
+Category: Compliance
+Published: 2026-09-23
+Updated: 2026-09-23
+Summary: Every employer must put occupational health and safety in place — a written safety statement with a risk assessment, a safety specialist, occupational-medicine health checks, and safety training. Here is what compliance requires.
+
+Occupational health and safety (безбедност и здравје при работа) is one of the most common inspection topics — and one businesses most often overlook until an inspector arrives. Under the Law on Occupational Health and Safety, every employer, regardless of size, must take defined measures to protect workers. This guide sets out the core obligations.
+
+### The written safety statement and risk assessment
+The cornerstone is a written safety statement (Изјава за безбедност) that includes a risk assessment for each workplace. It identifies the hazards of each job and the measures that control them. It is not a one-off document: you must update it whenever technology, premises or workplaces change, or after an injury or incident. An out-of-date safety statement is treated as non-compliance.
+
+### Safety specialist and occupational medicine
+You must have a safety-at-work specialist — either an appointed internal person or an authorized external firm — and give them full information about your size, activity, risks and any hazardous substances. For the health side, you engage an authorized occupational-medicine institution to carry out the expert health tasks, including workers' pre-employment and periodic health checks matched to the risks of their jobs.
+
+### Training and information
+Every worker must receive safety training (theoretical and practical) on hiring, on transfer to a new job, and when new technology or work processes are introduced. Workers must also get written instructions and information about the risks of their specific workplace, and you must consult them — or their elected safety representative(s) — and let them take part in safety matters.
+
+### Emergencies, first aid and equipment
+You must have measures and a plan for evacuation and rescue in emergencies, organise first aid (trained people and a first-aid kit), and put fire-protection measures in place under the relevant rules. Work equipment must be kept in safe working order through periodic checks and testing, and only equipment that is tested for safe operation — with guards that are not removed — may be used.
+
+### FAQ
+Q: Does a small business need a safety statement?
+A: Yes. Every employer, regardless of size, must have a written safety statement with a risk assessment for each workplace, and must update it when conditions change or after an incident.
+
+Q: Do I need a safety specialist?
+A: Yes — either an appointed internal person or an authorized external firm — and you must give them full information about your activity, risks and any hazardous substances.
+
+Q: Are health checks mandatory for employees?
+A: Yes. You engage an authorized occupational-medicine institution to carry out pre-employment and periodic health checks matched to the risks of each job.
+
+---
+## Business Records & Archiving Obligations in North Macedonia
+URL: https://company.nexa.mk/blog/business-records-archiving-north-macedonia
+Category: Compliance
+Published: 2026-09-23
+Updated: 2026-09-23
+Summary: Companies must manage and retain their documents under the archiving rules: a retention plan and lists, a registry book, controlled storage, and proper selection and destruction. Some records must be kept for decades.
+
+Archiving (архивско и канцелариско работење) is the quiet compliance obligation most businesses neglect — until an inspection or a dispute requires a document they cannot find or should not have destroyed. Companies must organise, store and retain their records to defined standards, and some documents must be kept for decades. Here is what a compliant setup looks like.
+
+### A retention plan and lists
+You must have and apply a plan of archival signs, a list of archival material, and a list of documentary material with retention periods. The plan follows a standard structure (a common part covering core functions, plus a special part for your activity), and your retention periods must match the standard ones.
+
+### How long to keep records
+Retention periods vary by document type. As a guide to the standard periods:
+Record typeTypical retentionPayroll & personnel records45 yearsAccounting documentation10 yearsContracts10 yearsGeneral correspondence1–2 years
+The long periods for payroll and personnel records exist because former employees may need them for pension and rights purposes years later — which is exactly why they must not be destroyed early.
+
+### Registry book and daily records
+You keep a registry book (деловодник) — the basic record of incoming and outgoing documents, with reference numbers and sub-numbers — closed off at the end of each year. Incoming documents get an intake stamp and a retention stamp (with the archival sign and retention period). By internal act you assign responsibility for office and archival work to an organisational unit or, for a small business, to one authorised person.
+
+### Storage, selection and destruction
+Archival material is kept separately from ordinary documentary material, stored in labelled archive boxes in a locked, controlled space protected from humidity, temperature, sunlight and fire, with access only for authorised staff. When documents are taken out, use a loan record. Periodically you select archival from documentary material per the lists; and before any destruction, you prepare an inventory of the documentary material to be destroyed, confirming the retention period has expired and that no archival material is included. Electronic documents must be kept in their original/permanent form and protected against unauthorised access, alteration or loss.
+
+### FAQ
+Q: How long must a company keep its records?
+A: It depends on the document: payroll and personnel records around 45 years, accounting documentation and contracts around 10 years, and general correspondence around 1–2 years, per the standard retention periods.
+
+Q: What archiving documents must a company have?
+A: A plan of archival signs, a list of archival material, and a list of documentary material with retention periods, plus a registry book and an internal act assigning responsibility for archival work.
+
+Q: How must archived material be stored?
+A: Separately from ordinary documents, in labelled archive boxes in a locked, controlled space protected from humidity, temperature, light and fire, accessible only to authorised staff.
+
+---
 ## Personal Data Protection (GDPR) for Businesses in North Macedonia
 URL: https://company.nexa.mk/blog/gdpr-for-businesses-north-macedonia
 Category: Data Protection (GDPR)

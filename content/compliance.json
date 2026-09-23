@@ -1,1 +1,193 @@
-[]
+[
+  {
+    "id": "cmp-1",
+    "slug": "company-compliance-checklist-north-macedonia",
+    "category_id": "4",
+    "title": "Company Compliance in North Macedonia: An Annual Checklist",
+    "excerpt": "Running a company means recurring legal obligations, not just registration. This checklist covers the essentials: annual accounts, beneficial-owner registration, tax filings, employment, health & safety, archiving and data protection.",
+    "author": "Nexa Legal Network",
+    "publishedDate": "2026-09-23",
+    "updatedDate": "2026-09-23",
+    "readingTime": "7 min read",
+    "image": "/categories/compliance.jpg",
+    "content": {
+      "introduction": "<p>Registering a company is the start, not the finish. Once you are operating, a set of recurring obligations keeps your company legally compliant in North Macedonia (Macedonia) — and missing them can mean fines, blocked accounts, or problems at inspection. This is a practical, plain-language checklist of the main ongoing compliance duties for a business owner. Treat it as a map; the specifics of each item depend on your size, activity and sector.</p>",
+      "sections": [
+        {
+          "heading": "Annual accounts and bookkeeping",
+          "level": 2,
+          "paragraphs": [
+            "<p>Every company must keep proper books and file an <strong>annual account (годишна сметка)</strong> for the previous business year with the Central Registry. As a rule the deadline is the <strong>end of February</strong> (with the electronic-submission window running slightly later, generally to mid-March). Keeping accurate, up-to-date accounting throughout the year is what makes this filing — and your tax returns — straightforward.</p>"
+          ]
+        },
+        {
+          "heading": "Beneficial owner (UBO) registration",
+          "level": 2,
+          "paragraphs": [
+            "<p>Companies must register their <strong>ultimate beneficial owner(s)</strong> — the natural person(s) who ultimately own or control the company — in the beneficial-owners register kept by the Central Registry. This must be done shortly after incorporation and updated on any change (typically within <strong>8 days</strong> of the change). It is an anti-money-laundering obligation, and late registration attracts escalating fees, so keep it current whenever ownership or control changes.</p>"
+          ]
+        },
+        {
+          "heading": "Tax filings and payments",
+          "level": 2,
+          "paragraphs": [
+            "<p>Your tax calendar runs all year: monthly profit-tax advances and the annual profit-tax return, VAT returns for each tax period if you are VAT-registered, and payroll taxes and contributions on salaries. Getting these right is a compliance function as much as a financial one — see our guides to <a href=\"/blog/company-taxes-north-macedonia\">company taxes</a>, <a href=\"/blog/corporate-profit-tax-north-macedonia\">corporate profit tax</a> and <a href=\"/blog/vat-north-macedonia\">VAT</a>.</p>"
+          ]
+        },
+        {
+          "heading": "Employment obligations",
+          "level": 2,
+          "paragraphs": [
+            "<p>If you have staff, you must register each employee with the relevant agency before they start, keep employment contracts and personnel records, pay salaries and contributions on time, and observe working-time and leave rules. Employee records also carry long retention periods (see archiving below).</p>"
+          ]
+        },
+        {
+          "heading": "Occupational health & safety",
+          "level": 2,
+          "paragraphs": [
+            "<p>Employers must put occupational health and safety measures in place — most importantly a written safety statement with a risk assessment for each workplace, safety training, and health checks. This is a common inspection focus. See the dedicated guide: <a href=\"/blog/occupational-health-safety-north-macedonia\">occupational health & safety obligations for employers</a>.</p>"
+          ]
+        },
+        {
+          "heading": "Archiving and records",
+          "level": 2,
+          "paragraphs": [
+            "<p>Businesses must manage and retain their documents according to the archiving rules — with a retention plan and defined storage. Some records must be kept for many years (payroll and personnel records especially). See: <a href=\"/blog/business-records-archiving-north-macedonia\">business records & archiving obligations</a>.</p>"
+          ]
+        },
+        {
+          "heading": "Data protection (GDPR)",
+          "level": 2,
+          "paragraphs": [
+            "<p>If you process personal data — of customers, employees or via CCTV — you have obligations under the Law on Personal Data Protection. See our <a href=\"/blog/gdpr-for-businesses-north-macedonia\">GDPR guide for businesses</a>. Depending on your activity you may also need sector-specific licences or permits; check what applies to your line of business.</p>"
+          ]
+        }
+      ]
+    },
+    "seo": {
+      "metaTitle": "Company Compliance in North Macedonia — Annual Checklist | Nexa",
+      "metaDescription": "A company compliance checklist for North Macedonia (Macedonia): annual accounts deadline, beneficial-owner (UBO) registration, tax filings, employment, health & safety, archiving and GDPR.",
+      "keywords": ["company compliance Macedonia", "corporate compliance North Macedonia", "annual company compliance Macedonia", "beneficial owner registration Macedonia", "UBO registration Macedonia", "annual accounts Macedonia", "company obligations Macedonia"]
+    },
+    "faq": [
+      { "question": "When are annual accounts due in North Macedonia?", "answer": "The annual account for the previous year is filed with the Central Registry, as a rule by the end of February, with the electronic-submission window running slightly later (generally to mid-March)." },
+      { "question": "When must I register my company's beneficial owner?", "answer": "Shortly after incorporation and on any change of ownership or control — typically within 8 days of the change — in the beneficial-owners register at the Central Registry. Late registration attracts escalating fees." },
+      { "question": "What are the main ongoing compliance obligations for a company?", "answer": "Bookkeeping and annual accounts, beneficial-owner registration, tax filings (profit tax, VAT, payroll), employment obligations, occupational health & safety, archiving, and data protection — plus any sector licences." }
+    ],
+    "relatedArticles": ["occupational-health-safety-north-macedonia", "business-records-archiving-north-macedonia", "gdpr-for-businesses-north-macedonia"]
+  },
+  {
+    "id": "cmp-2",
+    "slug": "occupational-health-safety-north-macedonia",
+    "category_id": "4",
+    "title": "Occupational Health & Safety Obligations for Employers",
+    "excerpt": "Every employer must put occupational health and safety in place — a written safety statement with a risk assessment, a safety specialist, occupational-medicine health checks, and safety training. Here is what compliance requires.",
+    "author": "Nexa Legal Network",
+    "publishedDate": "2026-09-23",
+    "updatedDate": "2026-09-23",
+    "readingTime": "6 min read",
+    "image": "/categories/compliance.jpg",
+    "content": {
+      "introduction": "<p>Occupational health and safety (безбедност и здравје при работа) is one of the most common inspection topics — and one businesses most often overlook until an inspector arrives. Under the Law on Occupational Health and Safety, every employer, regardless of size, must take defined measures to protect workers. This guide sets out the core obligations.</p>",
+      "sections": [
+        {
+          "heading": "The written safety statement and risk assessment",
+          "level": 2,
+          "paragraphs": [
+            "<p>The cornerstone is a <strong>written safety statement (Изјава за безбедност)</strong> that includes a <strong>risk assessment for each workplace</strong>. It identifies the hazards of each job and the measures that control them. It is not a one-off document: you must <strong>update it</strong> whenever technology, premises or workplaces change, or after an injury or incident. An out-of-date safety statement is treated as non-compliance.</p>"
+          ]
+        },
+        {
+          "heading": "Safety specialist and occupational medicine",
+          "level": 2,
+          "paragraphs": [
+            "<p>You must have a <strong>safety-at-work specialist</strong> — either an appointed internal person or an authorized external firm — and give them full information about your size, activity, risks and any hazardous substances. For the health side, you engage an <strong>authorized occupational-medicine institution</strong> to carry out the expert health tasks, including workers' <strong>pre-employment and periodic health checks</strong> matched to the risks of their jobs.</p>"
+          ]
+        },
+        {
+          "heading": "Training and information",
+          "level": 2,
+          "paragraphs": [
+            "<p>Every worker must receive <strong>safety training (theoretical and practical)</strong> on hiring, on transfer to a new job, and when new technology or work processes are introduced. Workers must also get written instructions and information about the risks of their specific workplace, and you must consult them — or their elected safety representative(s) — and let them take part in safety matters.</p>"
+          ]
+        },
+        {
+          "heading": "Emergencies, first aid and equipment",
+          "level": 2,
+          "paragraphs": [
+            "<p>You must have measures and a plan for <strong>evacuation and rescue</strong> in emergencies, organise <strong>first aid</strong> (trained people and a first-aid kit), and put <strong>fire-protection</strong> measures in place under the relevant rules. Work equipment must be kept in safe working order through periodic checks and testing, and only equipment that is tested for safe operation — with guards that are not removed — may be used.</p>"
+          ]
+        }
+      ]
+    },
+    "seo": {
+      "metaTitle": "Occupational Health & Safety for Employers — North Macedonia",
+      "metaDescription": "Occupational health and safety obligations for employers in North Macedonia (Macedonia): the written safety statement and risk assessment, safety specialist, occupational-medicine health checks, and training.",
+      "keywords": ["occupational health and safety Macedonia", "безбедност и здравје при работа", "safety statement Macedonia", "risk assessment workplace Macedonia", "employer safety obligations", "health and safety at work North Macedonia"]
+    },
+    "faq": [
+      { "question": "Does a small business need a safety statement?", "answer": "Yes. Every employer, regardless of size, must have a written safety statement with a risk assessment for each workplace, and must update it when conditions change or after an incident." },
+      { "question": "Do I need a safety specialist?", "answer": "Yes — either an appointed internal person or an authorized external firm — and you must give them full information about your activity, risks and any hazardous substances." },
+      { "question": "Are health checks mandatory for employees?", "answer": "Yes. You engage an authorized occupational-medicine institution to carry out pre-employment and periodic health checks matched to the risks of each job." }
+    ],
+    "relatedArticles": ["company-compliance-checklist-north-macedonia", "business-records-archiving-north-macedonia"]
+  },
+  {
+    "id": "cmp-3",
+    "slug": "business-records-archiving-north-macedonia",
+    "category_id": "4",
+    "title": "Business Records & Archiving Obligations in North Macedonia",
+    "excerpt": "Companies must manage and retain their documents under the archiving rules: a retention plan and lists, a registry book, controlled storage, and proper selection and destruction. Some records must be kept for decades.",
+    "author": "Nexa Legal Network",
+    "publishedDate": "2026-09-23",
+    "updatedDate": "2026-09-23",
+    "readingTime": "6 min read",
+    "image": "/categories/compliance.jpg",
+    "content": {
+      "introduction": "<p>Archiving (архивско и канцелариско работење) is the quiet compliance obligation most businesses neglect — until an inspection or a dispute requires a document they cannot find or should not have destroyed. Companies must organise, store and retain their records to defined standards, and some documents must be kept for decades. Here is what a compliant setup looks like.</p>",
+      "sections": [
+        {
+          "heading": "A retention plan and lists",
+          "level": 2,
+          "paragraphs": [
+            "<p>You must have and apply a <strong>plan of archival signs</strong>, a <strong>list of archival material</strong>, and a <strong>list of documentary material with retention periods</strong>. The plan follows a standard structure (a common part covering core functions, plus a special part for your activity), and your retention periods must match the standard ones.</p>"
+          ]
+        },
+        {
+          "heading": "How long to keep records",
+          "level": 2,
+          "paragraphs": [
+            "<p>Retention periods vary by document type. As a guide to the standard periods:</p>",
+            "<table><thead><tr><th>Record type</th><th>Typical retention</th></tr></thead><tbody><tr><td>Payroll & personnel records</td><td>45 years</td></tr><tr><td>Accounting documentation</td><td>10 years</td></tr><tr><td>Contracts</td><td>10 years</td></tr><tr><td>General correspondence</td><td>1–2 years</td></tr></tbody></table>",
+            "<p>The long periods for payroll and personnel records exist because former employees may need them for pension and rights purposes years later — which is exactly why they must not be destroyed early.</p>"
+          ]
+        },
+        {
+          "heading": "Registry book and daily records",
+          "level": 2,
+          "paragraphs": [
+            "<p>You keep a <strong>registry book (деловодник)</strong> — the basic record of incoming and outgoing documents, with reference numbers and sub-numbers — closed off at the end of each year. Incoming documents get an <strong>intake stamp</strong> and a <strong>retention stamp</strong> (with the archival sign and retention period). By internal act you assign responsibility for office and archival work to an organisational unit or, for a small business, to one authorised person.</p>"
+          ]
+        },
+        {
+          "heading": "Storage, selection and destruction",
+          "level": 2,
+          "paragraphs": [
+            "<p>Archival material is kept <strong>separately</strong> from ordinary documentary material, stored in labelled archive boxes in a <strong>locked, controlled space</strong> protected from humidity, temperature, sunlight and fire, with access only for authorised staff. When documents are taken out, use a loan record. Periodically you <strong>select</strong> archival from documentary material per the lists; and before any <strong>destruction</strong>, you prepare an inventory of the documentary material to be destroyed, confirming the retention period has expired and that no archival material is included. Electronic documents must be kept in their original/permanent form and protected against unauthorised access, alteration or loss.</p>"
+          ]
+        }
+      ]
+    },
+    "seo": {
+      "metaTitle": "Business Records & Archiving Obligations — North Macedonia",
+      "metaDescription": "Archiving obligations for companies in North Macedonia (Macedonia): the retention plan and lists, document retention periods (payroll 45 years, accounting 10 years), the registry book, storage and destruction.",
+      "keywords": ["archiving obligations Macedonia", "архивско работење", "document retention Macedonia", "business records retention North Macedonia", "деловодник", "record keeping company Macedonia"]
+    },
+    "faq": [
+      { "question": "How long must a company keep its records?", "answer": "It depends on the document: payroll and personnel records around 45 years, accounting documentation and contracts around 10 years, and general correspondence around 1–2 years, per the standard retention periods." },
+      { "question": "What archiving documents must a company have?", "answer": "A plan of archival signs, a list of archival material, and a list of documentary material with retention periods, plus a registry book and an internal act assigning responsibility for archival work." },
+      { "question": "How must archived material be stored?", "answer": "Separately from ordinary documents, in labelled archive boxes in a locked, controlled space protected from humidity, temperature, light and fire, accessible only to authorised staff." }
+    ],
+    "relatedArticles": ["company-compliance-checklist-north-macedonia", "occupational-health-safety-north-macedonia"]
+  }
+]
